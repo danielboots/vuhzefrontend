@@ -1,11 +1,37 @@
-const Home = () => {
+import Link from "next/link";
+import Layout from "../components/Layout";
+import { sanityClient, urlFor } from "../sanity";
+
+const Home = ({ projects }) => {
+  console.log(projects);
+
+  4;
   return (
-    <div className="bg-gradient-to-r from-purple-900 via-pink-900 to-blue-900">
-      <h1 className="text-3xl font-bold text-white  hover:text-blue-400">
+    <Layout>
+      <h1 className="text-3xl font-bold text-grey-400  hover:text-blue-400">
         EDM Music Services
       </h1>
-    </div>
+    </Layout>
   );
+};
+
+export const getServerSideProps = async () => {
+  const query = "*[ _type == 'project']";
+  const projects = await sanityClient.fetch(query);
+
+  if (!projects.length) {
+    return {
+      props: {
+        projects: [],
+      },
+    };
+  } else {
+    return {
+      props: {
+        projects,
+      },
+    };
+  }
 };
 
 export default Home;
