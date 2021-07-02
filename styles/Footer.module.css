@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  margin-top: auto;
+  width: 100%;
+}
+
+/* .copybar {
+    text-align: center;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+  
+    margin-top: auto;
+    width: 100%;
+  } */
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer span {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+}
