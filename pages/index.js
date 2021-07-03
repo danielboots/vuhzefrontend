@@ -8,7 +8,7 @@ const Home = ({ projects }) => {
   4;
   return (
     <Layout>
-      <h1 className="text-3xl font-bold text-grey-400  hover:text-blue-400">
+      <h1 className="text-6xl font-bold text-gray-800 font-body flex justify-center ">
         EDM Music Services
       </h1>
     </Layout>
