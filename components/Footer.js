@@ -2,11 +2,9 @@
 const navigation = {
   main: [
     { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "News", href: "#" },
+    { name: "Services", href: "#" },
+    { name: "Contact", href: "#" },
   ],
   social: [
     {
@@ -81,7 +79,8 @@ export default function Example() {
             </a>
           ))}
         </div>
-        <hr />
+        <div className="border-b border-gray-600 border-opacity-50 w-50"></div>
+
         <p className="mt-8 text-center text-sm font-lighter text-gray-600 uppercase">
           &copy; 2021 EDM Music Services LTD. All rights reserved.
         </p>

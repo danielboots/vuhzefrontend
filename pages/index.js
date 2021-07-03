@@ -2,14 +2,17 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import { sanityClient, urlFor } from "../sanity";
 
+import Hero from "../components/Hero";
+
 const Home = ({ projects }) => {
   console.log(projects);
 
   4;
   return (
     <Layout>
+      <Hero />
       <h1 className="text-6xl font-bold text-gray-800 font-body flex justify-center ">
-        EDM Music Services
+        content here
       </h1>
     </Layout>
   );
