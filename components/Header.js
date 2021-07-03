@@ -11,11 +11,6 @@ export default function Header() {
         {/* right hand side */}
         <ul className="flex font-bold uppercase space-x-4 ">
           <li>
-            <a href="" className="mr-4 hover:text-indigo-200 ">
-              Home
-            </a>
-          </li>
-          <li>
             <a href="" className="mr-4  hover:text-indigo-200">
               About
             </a>
@@ -28,16 +23,6 @@ export default function Header() {
           <li>
             <a href="" className="mr-4 hover:text-indigo-200">
               Contact
-            </a>
-          </li>
-          <li>
-            <a href="" className="mr-4 hover:text-indigo-200">
-              Team
-            </a>
-          </li>
-          <li>
-            <a href="" className="mr-4 hover:text-indigo-200">
-              Premium
             </a>
           </li>
         </ul>
