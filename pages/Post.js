@@ -10,6 +10,7 @@ const Post = () => {
         `*[_type == 'post']{
         title,
         slug,
+        body,
         mainImage {
             asset-> {
                 _id,
@@ -34,16 +35,23 @@ const Post = () => {
             {postData &&
               postData.map((post, index) => (
                 <article key={index}>
-                  <img
-                    className="h-80 w-100"
-                    src={post.mainImage.asset.url}
-                    alt="post image"
-                  />
-                  <span>
-                    <p key={post.id} post={post}>
-                      <h2> {post.title}</h2>
-                    </p>
-                  </span>
+                  <div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-lg relative">
+                      <h2 className="text-center font-black uppercase  text-gray-600">
+                        {post.title}
+                      </h2>
+                      <p className="text-center font-medium text-gray-600 "></p>
+                      <img
+                        className="w-full h-32 sm:h-48 object-cover"
+                        src={post.mainImage.asset.url}
+                        alt="meh"
+                      />
+                      <div className="m-4 text-center">
+                        <span className="font-bold text-gray-600 "></span>
+                        <span className="block text-gray-400 font-bold"></span>
+                      </div>
+                    </div>
+                  </div>
                 </article>
               ))}
           </div>

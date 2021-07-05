@@ -1,8 +1,10 @@
-const ServCard = () => {
+const ServCard = (service) => {
   return (
     <div>
       <div className="bg-white rounded-lg overflow-hidden shadow-lg relative">
-        <h2 className="text-center font-black uppercase  text-gray-600">{}</h2>
+        <h2 className="text-center font-black uppercase  text-gray-600">
+          alreet {service.title}
+        </h2>
         <p className="text-center font-medium text-gray-600 "></p>
         <img
           className="w-full h-32 sm:h-48 object-cover"
