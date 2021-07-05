@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <div className={styles.herohome}>
       <div className="flex  items-center ">
-        <h1 className="text-6xl font-bold text-white font-body  ">
-          EDM Music Service
+        <h1 className="text-6xl font-bold text-white font-body z-10">
+          EDM Music Services
         </h1>
       </div>
       <div className={styles.container}></div>

@@ -19,6 +19,7 @@ export default function Layout({ title, keywords, description, children }) {
       {/* children_wraps content */}
 
       {children}
+
       <Footer />
     </div>
   );

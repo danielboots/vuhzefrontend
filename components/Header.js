@@ -1,15 +1,15 @@
 export default function Header() {
   return (
-    <div className="p-8  text-gray-500 tracking-wider ">
+    <div className="p-8  text-gray-400 tracking-wider bg-white ">
       <nav className="flex justify-between">
         <ul className="flex font-bold ml-6">
           <li>
-            <a href="">EDM</a>
+            <a href=" text-body">EDM</a>
           </li>
         </ul>
 
         {/* right hand side */}
-        <ul className="flex font-bold uppercase space-x-4 ">
+        <ul className="flex font-bold uppercase space-x-4  font-body">
           <li>
             <a href="" className="mr-4  hover:text-indigo-200">
               About
