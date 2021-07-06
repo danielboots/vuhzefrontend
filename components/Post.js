@@ -8,8 +8,8 @@ const Post = ({ post }) => {
     <div>
       <article>
         <div>
-          <div className="bg-white overflow-hidden shadow-lg relative">
-            <h2 className="text-center font-black uppercase  text-gray-600">
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
+            <h2 className="text-center font-black uppercase  text-gray-800">
               {post.title}
             </h2>
 

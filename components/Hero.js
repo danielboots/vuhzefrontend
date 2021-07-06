@@ -1,5 +1,6 @@
 import styles from "@/styles/Hero.module.css";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import Header from "./Header";
 
 export default function Hero() {
   return (
