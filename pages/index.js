@@ -14,8 +14,7 @@ const Home = ({ service, post }) => {
   useEffect(() => {
     sanityClient
       .fetch(
-        // [0..2]
-        `*[_type == 'service']{
+        `*[_type == 'service'][0..2]{
         title,
         slug,
         tagline,
