@@ -3,15 +3,19 @@ import { sanityClient, urlFor } from "../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import BlockContent from "@sanity/block-content-to-react";
+import Service from "@/components/Service";
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
   const [postData, setPost] = useState(null);
+  console.log(serviceData);
 
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'service'][0..2]{
+        // [0..2]
+        `*[_type == 'service']{
         title,
         slug,
         tagline,
@@ -73,25 +77,7 @@ const Home = ({ service, post }) => {
           {serviceData &&
             serviceData.map((service, index) => (
               <div>
-                <div className="bg-white rounded-lg overflow-hidden shadow-lg relative">
-                  <h2 className="text-center font-black uppercase  text-gray-600 m-2">
-                    {service.title}
-                  </h2>
-                  {/* <span className="block text-gray-400 font-bold text-center">
-                    {service.tagline}
-                  </span> */}
-                  <p className="text-center font-medium text-gray-600 "></p>
-                  <img
-                    className="w-full h-32 sm:h-48 object-cover"
-                    src={service.mainImage.asset.url}
-                    alt="meh"
-                  />
-                  <div className="m-4 text-center">
-                    <span className="font-bold text-gray-600 ">
-                      {service.description}
-                    </span>
-                  </div>
-                </div>
+                <Service key={service.id} service={service} />
               </div>
             ))}
         </div>
@@ -114,13 +100,23 @@ const Home = ({ service, post }) => {
                       <h2 className="text-center font-black uppercase  text-gray-600">
                         {post.title}
                       </h2>
-                      {/* <p>{post.body}</p> */}
-                      <p className="text-center font-medium text-gray-600 "></p>
+
                       <img
                         className="w-full h-32 sm:h-48 object-cover"
                         src={post.mainImage.asset.url}
                         alt="meh"
                       />
+                      <div className="prose text-center">
+                        Content goes here!
+                        <BlockContent
+                          blocks={post.body}
+                          projectId="ta2muy7p"
+                          dataset="production"
+                        />
+                      </div>
+
+                      <p className="text-center font-medium text-gray-600 "></p>
+
                       <div className="m-4 text-center">
                         <span className="font-bold text-gray-600 "></span>
                         <span className="block text-gray-400 font-bold"></span>
