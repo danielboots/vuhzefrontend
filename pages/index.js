@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import Info from "../components/Info";
 import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
+import Post from "@/components/Post";
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -78,15 +79,6 @@ const Home = ({ service, post }) => {
                     <Service key={service.id} service={service} />
                   </div>
                 ))}
-
-              {/* <Link href="/service">
-                <button
-                  type="button"
-                  className="m-3 py-3 px-4 uppercase text-xs rounded-sm font-bold text-white bg-gray-900 hover:bg-gray-800 "
-                >
-                  View Service List
-                </button>
-              </Link> */}
             </div>
           </div>
 
@@ -101,37 +93,9 @@ const Home = ({ service, post }) => {
               <div className=" m-4 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
                 {postData &&
                   postData.map((post, index) => (
-                    <article key={index}>
-                      <div>
-                        <div className="bg-white overflow-hidden shadow-lg relative">
-                          <h2 className="text-center font-black uppercase  text-gray-600">
-                            {post.title}
-                          </h2>
-
-                          <img
-                            className="w-full h-32 sm:h-48 object-cover"
-                            src={post.mainImage.asset.url}
-                            alt="meh"
-                          />
-                          <div className="prose text-center">
-                            Content goes here!
-                            <BlockContent
-                              key={post.id}
-                              blocks={post.body}
-                              projectId="ta2muy7p"
-                              dataset="production"
-                            />
-                          </div>
-
-                          <p className="text-center font-medium text-gray-600 "></p>
-
-                          <div className="m-4 text-center">
-                            <span className="font-bold text-gray-600 "></span>
-                            <span className="block text-gray-400 font-bold"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
+                    <div>
+                      <Post key={post.id} post={post} />
+                    </div>
                   ))}
               </div>
             </div>
