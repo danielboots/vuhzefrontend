@@ -47,20 +47,17 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-gray-900 font-body">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav
           className="-mx-5 -my-2 flex flex-wrap justify-center"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
-            <div
-              key={item.name}
-              className="px-5 py-2 uppercase font-semibold tracking-widest"
-            >
+            <div key={item.name} className="px-5 py-2 uppercase font-semibold ">
               <a
                 href={item.href}
-                className="text-base text-gray-500 hover:text-gray-100"
+                className="font-thin text-gray-500 hover:text-gray-100 tracking-widest"
               >
                 {item.name}
               </a>

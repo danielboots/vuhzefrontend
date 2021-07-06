@@ -1,4 +1,5 @@
 import { sanityClient, urlFor } from "../../sanity";
+import Layout from "@/components/Layout";
 
 const Service = ({
   title,
@@ -10,16 +11,19 @@ const Service = ({
   tags,
 }) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{tagline}</p>
-      <p>{description}</p>
-      <img
-        className="w-full h-32 sm:h-48 object-cover"
-        src={mainImage.asset.url}
-        alt="meh"
-      />
-    </div>
+    <Layout title="About | EDM" description="About| EDM Music Services">
+      <div>
+        <img
+          className="w-full h-32 sm:h-48 object-cover"
+          src={mainImage.asset.url}
+          alt="meh"
+        />
+        <h1>about test _rafce</h1>
+        <h1>{title}</h1>
+        <p>{tagline}</p>
+        <p>{description}</p>
+      </div>
+    </Layout>
   );
 };
 
