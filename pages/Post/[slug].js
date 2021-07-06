@@ -1,12 +1,26 @@
 import { sanityClient, urlFor } from "../../sanity";
 import Layout from "@/components/Layout";
+import BlockContent from "@sanity/block-content-to-react";
 
-const Post = ({ title }) => {
+const Post = ({ title, slug, body, mainImage, description, tagline }) => {
   return (
     <Layout title="About | EDM" description="About| EDM Music posts">
       <div>
-        <h1>about </h1>
         <h1>{title}</h1>
+
+        <img
+          className="w-full h-32 sm:h-48 object-cover"
+          src={mainImage.asset.url}
+          alt="meh"
+        />
+
+        <div className="prose text-center">
+          <BlockContent
+            blocks={body}
+            projectId="ta2muy7p"
+            dataset="production"
+          />
+        </div>
       </div>
     </Layout>
   );
@@ -26,10 +40,8 @@ export const getServerSideProps = async (pageContext) => {
             url
         },
         alt
-    }
+    },
   
-
-
     description,
     tags,
 
@@ -46,6 +58,8 @@ export const getServerSideProps = async (pageContext) => {
     return {
       props: {
         title: post.title,
+        mainImage: post.mainImage,
+        body: post.body,
       },
     };
   }
