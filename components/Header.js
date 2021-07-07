@@ -18,10 +18,11 @@ export default function Header() {
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
-              <ul className="  uppercase  font-body  font-bold tracking-widest text-gray-200  ">
-                <Link href="/">
+              <ul className=" h-8 w-8 ">
+                <img src="/images/logo.png" alt="" />
+                {/* <Link href="/">
                   <a>Index</a>
-                </Link>
+                </Link> */}
               </ul>
 
               {/* hides content on small screens */}
