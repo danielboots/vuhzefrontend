@@ -63,8 +63,6 @@ const Home = ({ service, post }) => {
 
   return (
     <Layout>
-      <Hero />
-
       <div className="font-body">
         <div className=" p-4 container mx-auto font-body">
           <div className="mt-4 p-4 container mx-auto ">

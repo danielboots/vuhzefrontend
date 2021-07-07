@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-8 text-gray-700 tracking-tight  bg-gray-900  sticky top-0 z-50 h-20 "
+      className=" py-8 text-gray-700 tracking-tight  bg-transparent   sticky top-0 z-50 h-20 "
     >
       {({ open }) => (
         <>

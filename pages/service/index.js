@@ -40,7 +40,6 @@ const service = ({ service }) => {
 
   return (
     <Layout title="services | EDM" description="services | EDM Music Services">
-      <Hero />
       <div className=" p-4 container mx-auto font-body ">
         <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl ">
           Our Top Services
