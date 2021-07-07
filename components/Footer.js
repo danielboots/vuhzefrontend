@@ -81,6 +81,11 @@ export default function Example() {
         <p className="mt-8 text-center text-sm font-lighter text-gray-600 uppercase">
           &copy; 2021 EDM Music Services LTD. All rights reserved.
         </p>
+
+        <a href=""></a>
+        <p className="mt-4 text-center text-xs font-bold text-gray-200 uppercase tracking-widest">
+          Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
+        </p>
       </div>
     </footer>
   );
