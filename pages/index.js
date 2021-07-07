@@ -6,6 +6,9 @@ import Hero from "../components/Hero";
 import Info from "../components/Info";
 import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
+
+import SeenIn from "@/components/SeenIn";
+
 import Post from "@/components/Post";
 
 const Home = ({ service, post }) => {
@@ -100,6 +103,8 @@ const Home = ({ service, post }) => {
           </div>
         </div>
       </div>
+
+      <SeenIn />
       <Info />
     </Layout>
   );
