@@ -12,7 +12,7 @@ export default function Hero() {
           className="  
         text-6xl  font-bold text-white font-body "
         >
-          <div className="flex justify-center text-center mt-40">
+          <div className="flex justify-center text-center mt-32">
             <h1 className=" z-20 ">EDM Music Services</h1>
           </div>
         </div>

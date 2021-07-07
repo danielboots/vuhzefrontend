@@ -41,7 +41,7 @@ export default function Header() {
 
               <div className="  flex sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="text-gray-400 hover:text-white hover:bg-gray-00 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="text-gray-200 hover:text-white ">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
