@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex justify-between  relative">
               <ul className=" h-8 w-8  animate-pulse ">
                 <Link href="/">
-                  <img src="/images/logo.png" alt="" />
+                  <img src="/images/logoI.png" alt="" />
                 </Link>
               </ul>
 
