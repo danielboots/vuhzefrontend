@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Post from "@/components/Post";
 import Info from "@/components/Info";
+
 const post = ({ post }) => {
   const [postData, setPostData] = useState(null);
 
