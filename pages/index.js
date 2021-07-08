@@ -68,12 +68,12 @@ const Home = ({ service, post }) => {
     <Layout>
       <div className="font-body">
         <div className=" p-4 container mx-auto font-body">
-          <div className="mt-4 p-4 container mx-auto ">
+          <div className="mt-4  container mx-auto ">
             <h1 className="flex justify-center text-3xl font-extrabold tracking-tight sm:text-4xl ">
               Our Top Services
             </h1>
 
-            <div className=" m-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+            <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
               {serviceData &&
                 serviceData.map((service, index) => (
                   <div>
@@ -85,13 +85,13 @@ const Home = ({ service, post }) => {
 
           <div>
             <div>
-              <div className=" p-4 container mx-auto ">
+              <div className="  container mx-auto ">
                 <h1 className="flex justify-center text-3xl font-extrabold tracking-tight sm:text-4xl">
                   Latest News
                 </h1>
               </div>
 
-              <div className=" m-4 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
+              <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
                 {postData &&
                   postData.map((post, index) => (
                     <div>

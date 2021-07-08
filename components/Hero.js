@@ -10,10 +10,12 @@ export default function Hero() {
 
         <div
           className="  
-        text-6xl  font-bold text-white font-body "
+          font-bold text-white font-body "
         >
-          <div className="flex justify-center text-center mt-32">
-            <h1 className=" z-20 ">EDM Music Services</h1>
+          <div className="flex justify-center text-center ">
+            <h1 className=" z-20 tracking-tight text-4xl mt-20 md:text-6xlmt-32">
+              EDM Music Services
+            </h1>
           </div>
         </div>
       </div>
