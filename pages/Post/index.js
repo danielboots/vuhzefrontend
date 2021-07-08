@@ -1,11 +1,8 @@
-import { sanityClient, urlFor } from "../../sanity";
+import { sanityClient } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
-import Link from "next/link";
 import Post from "@/components/Post";
-import Hero from "@/components/Hero";
 import Info from "@/components/Info";
-
 const post = ({ post }) => {
   const [postData, setPostData] = useState(null);
 

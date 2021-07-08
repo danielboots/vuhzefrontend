@@ -1,7 +1,4 @@
 import Link from "next/link";
-// import { sanityClient, urlFor } from "../sanity";
-// import React, { useState, useEffect } from "react";
-// import BlockContent from "@sanity/block-content-to-react";
 
 const Post = ({ post }) => {
   return (
@@ -16,7 +13,7 @@ const Post = ({ post }) => {
             <img
               className="w-full h-32 sm:h-48 object-cover"
               src={post.mainImage.asset.url}
-              alt="meh"
+              alt="alt image name"
             />
 
             {/* <div className="prose text-center">
