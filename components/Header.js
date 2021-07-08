@@ -33,6 +33,9 @@ export default function Header() {
                   <Link href="/service">
                     <a>Services</a>
                   </Link>
+                  <Link href="/post">
+                    <a>News</a>
+                  </Link>
                   <Link href="/contact">
                     <a>Contact</a>
                   </Link>
@@ -60,6 +63,9 @@ export default function Header() {
               </Link>
               <Link href="/service">
                 <a>Services</a>
+              </Link>
+              <Link href="/post">
+                <a>News</a>
               </Link>
               <Link href="/contact">
                 <a>Contact</a>
