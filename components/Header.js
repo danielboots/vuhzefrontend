@@ -26,18 +26,18 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-500  mr-6">
+                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
                   <Link href="/">
-                    <a>Index</a>
+                    <a className="hover:text-gray-800">Index</a>
                   </Link>
                   <Link href="/service">
-                    <a>Services</a>
+                    <a className="hover:text-gray-800">Services</a>
                   </Link>
                   <Link href="/post">
-                    <a>News</a>
+                    <a className="hover:text-gray-800">News</a>
                   </Link>
                   <Link href="/contact">
-                    <a>Contact</a>
+                    <a className="hover:text-gray-800">Contact</a>
                   </Link>
                 </ul>
               </div>

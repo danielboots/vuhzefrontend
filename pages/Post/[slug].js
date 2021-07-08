@@ -19,7 +19,7 @@ const Post = ({
             <header className="">
               <div className=" h-full w-full flex items-center justify-center p-8">
                 <div className="bg-white rounded p-6">
-                  <h1 className="text-4xl mb-4 flex justify-center font-bold uppercase">
+                  <h1 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
                     {title}
                   </h1>
                   <div>

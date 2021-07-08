@@ -37,7 +37,7 @@ export default function Team() {
               About
             </h2>
 
-            <p className="text-xl text-gray-500">
+            <p className="text-lg text-gray-500 font-semibold">
               EDM Music Productions dedicated team of music professionals
               curated by us to ensure we maintain the highest quality of results
               and work. From music producers to A&R, we can handle your project
@@ -58,12 +58,17 @@ export default function Team() {
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
-                        <div className="text-lg leading-6 font-medium space-y-1">
+                        <div className="text-lg leading-6 font-bold  tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-indigo-600">{person.role}</p>
+                          <p className="text-indigo-600 font-bold tracking-tight ">
+                            {person.role}
+                          </p>
                         </div>
                         <div className="text-lg">
-                          <p className="text-gray-500">{person.bio}</p>
+                          <p className="text-gray-600">
+                            {" "}
+                            " <em>{person.bio}</em> "
+                          </p>
                         </div>
                         <ul className="flex space-x-5">
                           <li>
