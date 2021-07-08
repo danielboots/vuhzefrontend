@@ -56,10 +56,22 @@ const contact = () => {
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form
-                action="#"
+                action="https://formsubmit.co/dan@vuhze.com"
                 method="POST"
                 className="grid grid-cols-1 gap-y-6"
               >
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://google.com"
+                ></input>
+                <input type="text" name="_honey" className="hidden"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New submission from EDM Music Services!"
+                ></input>
                 <div>
                   <label htmlFor="full-name" className="sr-only">
                     Full name
@@ -71,6 +83,7 @@ const contact = () => {
                     autoComplete="name"
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     placeholder="Full name"
+                    required
                   />
                 </div>
                 <div>
@@ -84,6 +97,7 @@ const contact = () => {
                     autoComplete="email"
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                     placeholder="Email"
+                    required
                   />
                 </div>
                 <div>
@@ -110,6 +124,7 @@ const contact = () => {
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
                     placeholder="Message"
                     defaultValue={""}
+                    required
                   />
                 </div>
                 <div>
