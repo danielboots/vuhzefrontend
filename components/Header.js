@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-8 text-gray-700 tracking-tight  bg-white   sticky top-0 z-50 h-20 "
+      className=" py-8 text-gray-700 tracking-tight  bg-white   md:sticky top-0 z-50 h-20 "
     >
       {({ open }) => (
         <>
@@ -33,7 +33,7 @@ export default function Header() {
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
-                  <Link href="/post">
+                  <Link href="/Post">
                     <a className="hover:text-gray-800">News</a>
                   </Link>
                   <Link href="/contact">
@@ -64,7 +64,7 @@ export default function Header() {
               <Link href="/service">
                 <a>Services</a>
               </Link>
-              <Link href="/post">
+              <Link href="/Post">
                 <a>News</a>
               </Link>
               <Link href="/contact">
