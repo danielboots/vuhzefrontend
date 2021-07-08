@@ -1,9 +1,9 @@
 import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
-import Link from "next/link";
+
 import Service from "@/components/Service";
-import Hero from "@/components/Hero";
+
 import Info from "@/components/Info";
 
 const service = ({ service }) => {
