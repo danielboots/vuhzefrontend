@@ -15,6 +15,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
       {/* <Header /> */}
+      <Header />
       <Hero />
 
       {/* children_wraps content */}

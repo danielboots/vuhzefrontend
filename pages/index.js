@@ -6,9 +6,9 @@ import Hero from "../components/Hero";
 import Info from "../components/Info";
 import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
-
+import About from "@/components/About";
 import SeenIn from "@/components/SeenIn";
-
+import Team from "@/components/Team";
 import Post from "@/components/Post";
 
 const Home = ({ service, post }) => {
@@ -67,6 +67,8 @@ const Home = ({ service, post }) => {
   return (
     <Layout>
       <div className="font-body">
+        <Team />
+        <About />
         <div className=" p-4 container mx-auto font-body">
           <div className="mt-4  container mx-auto ">
             <h1 className="flex justify-center text-3xl font-extrabold tracking-tight sm:text-4xl ">

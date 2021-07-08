@@ -6,6 +6,10 @@
   background-attachment: fixed;
   color: #ffffff;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .herohome::before {

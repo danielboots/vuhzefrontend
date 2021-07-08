@@ -12,22 +12,21 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-8 text-gray-700 tracking-tight  bg-transparent   sticky top-0 z-50 h-20 "
+      className=" py-8 text-gray-700 tracking-tight  bg-white   sticky top-0 z-50 h-20 "
     >
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
-              <ul className=" h-8 w-8 ">
-                <img src="/images/logo.png" alt="" />
-                {/* <Link href="/">
-                  <a>Index</a>
-                </Link> */}
+              <ul className=" h-8 w-8  animate-pulse ">
+                <Link href="/">
+                  <img src="/images/logo.png" alt="" />
+                </Link>
               </ul>
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-200  mr-6">
+                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-500  mr-6">
                   <Link href="/">
                     <a>Index</a>
                   </Link>
@@ -56,6 +55,9 @@ export default function Header() {
 
           <Disclosure.Panel className="sm:hidden">
             <ul className="  px-4 pt-6 pb-4 space-y-6 flex uppercase  font-body bg-gray-900 w-full  font-bold tracking-widest text-gray-200 flex-col">
+              <Link href="/">
+                <a>Index</a>
+              </Link>
               <Link href="/service">
                 <a>Services</a>
               </Link>
