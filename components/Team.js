@@ -16,11 +16,11 @@
 */
 const people = [
   {
-    name: "Vincent Noort",
+    name: "Vince",
     role: "Founder EDM Music Services",
     imageUrl:
       "https://images.unsplash.com/photo-1511222138462-5d03818b409c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80",
-    bio: "Bio here: Vince has over 10+ years of industry experience connecting industry players and getting results.",
+    bio: "Our team have over 15+ years of industry experience connecting industry players and getting major record label placements and results.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
