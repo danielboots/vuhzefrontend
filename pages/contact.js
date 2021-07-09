@@ -113,6 +113,33 @@ const contact = () => {
                     placeholder="Phone"
                   />
                 </div>
+
+                <div>
+                  <label
+                    htmlFor="service"
+                    className="sr-only"
+                    className="block text-sm font-medium text-gray-700 mb-2 p-3"
+                  >
+                    Service Interested in...
+                  </label>
+                  <select
+                    id="service"
+                    name="service"
+                    className="block w-full shadow-sm py-3 px-6 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md "
+                    defaultValue="Production incl: Ghost Production"
+                  >
+                    <option>Production incl: Ghost Production</option>
+                    <option>Consultancy</option>
+                    <option>Remixing</option>
+                    <option>Mixdown</option>
+                    <option>Branding / Web Development</option>
+                    <option>Live Performance Tuition</option>
+                    <option>Mastering</option>
+                    <option>Vocal Production</option>
+                    <option>Other Enquiries</option>
+                  </select>
+                </div>
+
                 <div>
                   <label htmlFor="message" className="sr-only">
                     Message
