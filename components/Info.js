@@ -3,7 +3,7 @@ const Info = () => {
     <div className="relative bg-gray-900 font-body ">
       <div className="h-56  sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
-          className="w-full h-full object-cover m-4 "
+          className="w-full h-full object-cover"
           src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80"
           alt=""
         />
