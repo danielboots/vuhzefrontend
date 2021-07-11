@@ -7,7 +7,7 @@ export default function Hero() {
     <div>
       <div className={styles.herohome}>
         <h1 className=" font-body text-center font-bold z-20 tracking-tight text-3xl  sm:text-4xl md:text-6xl ">
-          EDM Music Services
+          Optimal Surgical
         </h1>
       </div>
     </div>

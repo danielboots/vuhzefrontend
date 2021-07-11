@@ -16,10 +16,9 @@
 */
 const people = [
   {
-    name: "Vince",
-    role: "Founder EDM Music Services",
-    imageUrl:
-      "https://images.unsplash.com/photo-1511222138462-5d03818b409c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80",
+    name: "Kevin Scales",
+    role: "Founder Optimal Surgical",
+    imageUrl: "/images/kevin.jpg",
     bio: "Our team have over 15+ years of industry experience connecting industry players and getting major record label placements and results.",
     twitterUrl: "#",
     linkedinUrl: "#",
@@ -38,10 +37,9 @@ export default function Team() {
             </h2>
 
             <p className="text-lg text-gray-500 font-semibold">
-              EDM Music Productions dedicated team of music professionals
-              curated by us to ensure we maintain the highest quality of results
-              and work. From music producers to A&R, we can handle your project
-              from start to finish.
+              Optimal Surgical dedicated team of professionals curated by us to
+              ensure we maintain the highest quality of results and work. We can
+              handle your project from start to finish.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -51,7 +49,7 @@ export default function Team() {
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                       <img
-                        className="object-cover shadow-lg rounded-lg"
+                        className="object-cover shadow-2xl rounded "
                         src={person.imageUrl}
                         alt=""
                       />

@@ -19,9 +19,10 @@ export default function Header() {
           <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
               <ul className=" h-8 w-8  animate-pulse ">
-                <Link href="/">
+                <li className="font-bold">OS</li>
+                {/* <Link href="/">
                   <img src="/images/logoI.png" alt="" />
-                </Link>
+                </Link> */}
               </ul>
 
               {/* hides content on small screens */}

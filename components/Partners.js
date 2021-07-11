@@ -1,4 +1,4 @@
-const SeenIn = () => {
+const Partners = () => {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -24,4 +24,4 @@ const SeenIn = () => {
   );
 };
 
-export default SeenIn;
+export default Partners;

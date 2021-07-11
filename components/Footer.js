@@ -79,7 +79,7 @@ export default function Example() {
         <div className="border-b border-gray-600 border-opacity-50 w-50 "></div>
 
         <p className="mt-8 text-center text-sm font-lighter text-gray-600 uppercase">
-          2021 EDM Music Services LTD. All rights reserved.
+          2021 Optimal Surgical LTD. All rights reserved.
         </p>
 
         <a href=""></a>

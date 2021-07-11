@@ -7,7 +7,7 @@ import Info from "../components/Info";
 import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
 import About from "@/components/About";
-import SeenIn from "@/components/SeenIn";
+import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
 
@@ -106,7 +106,7 @@ const Home = ({ service, post }) => {
         </div>
       </div>
 
-      <SeenIn />
+      <Partners />
       <Info />
     </Layout>
   );
