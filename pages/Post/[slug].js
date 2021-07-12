@@ -12,7 +12,7 @@ const Post = ({
   author,
 }) => {
   return (
-    <Layout title="About | EDM" description="About| EDM Music posts">
+    <Layout title={`Article by : ${author.name}`} description="News Desk">
       <div>
         <main>
           <article className="font-body  shadow-lg mx-auto ">
