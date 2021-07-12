@@ -10,6 +10,7 @@ import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
+import Process from "@/components/Process";
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -75,7 +76,7 @@ const Home = ({ service, post }) => {
               What we do...
             </h1>
             <hr className="" />
-            <div className=" mt-10 my-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+            <div className=" my-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
               {serviceData &&
                 serviceData.map((service, index) => (
                   <div>
@@ -85,9 +86,11 @@ const Home = ({ service, post }) => {
             </div>
           </div>
 
+          <Process />
+
           <div>
             <div>
-              <div className="  container mx-auto ">
+              <div className=" mt-10 container mx-auto ">
                 <h1 className="flex  my-4 justify-center text-3xl font-bold text-coolgray-800 sm:text-4xl">
                   Latest News
                 </h1>
