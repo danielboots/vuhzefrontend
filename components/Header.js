@@ -19,9 +19,11 @@ export default function Header() {
           <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
               <ul className=" font-body">
-                <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
-                  OPTIMAL <span>surgical</span>
-                </li>
+                <Link href="/">
+                  <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
+                    OPTIMAL <span>surgical</span>
+                  </li>
+                </Link>
                 {/* <Link href="/">
                   <img src="/images/logoI.png" alt="" />
                 </Link> */}
@@ -60,7 +62,7 @@ export default function Header() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <ul className="  px-4 pt-6 pb-4 space-y-6 flex uppercase  font-body bg-gray-900 w-full  font-bold tracking-widest text-gray-200 flex-col">
+            <ul className="  px-4 pt-6 pb-4 space-y-6 flex uppercase  font-body bg-coolgray-800 w-full  font-bold tracking-widest text-gray-200 flex-col">
               <Link href="/">
                 <a>Index</a>
               </Link>

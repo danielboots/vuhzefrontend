@@ -2,7 +2,7 @@
   background: url("/images/heroII.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: auto;
-  height: 40vh;
+  height: 50vh;
   background-attachment: fixed;
   color: #ffffff;
   position: relative;
@@ -24,7 +24,7 @@
 
 @media (max-width: 960px) {
   .herohome {
-    background: url("/images/hero.jpg") no-repeat center center fixed;
+    background: url("/images/heroII.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: auto;
     height: 40vh;
