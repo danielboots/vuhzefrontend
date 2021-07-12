@@ -66,12 +66,12 @@ const Home = ({ service, post }) => {
 
   return (
     <Layout>
-      <div className="font-body">
+      <div className="font-body ">
         <Team />
         <About />
         <div className=" p-4 container mx-auto font-body">
           <div className="mt-4  container mx-auto ">
-            <h1 className="flex justify-center text-3xl font-extrabold tracking-tight sm:text-4xl ">
+            <h1 className="flex justify-center text-3xl  font-bold  sm:text-4xl ">
               Our Top Services
             </h1>
 
@@ -88,7 +88,7 @@ const Home = ({ service, post }) => {
           <div>
             <div>
               <div className="  container mx-auto ">
-                <h1 className="flex justify-center text-3xl font-extrabold tracking-tight sm:text-4xl">
+                <h1 className="flex justify-center text-3xl font-bold  sm:text-4xl">
                   Latest News
                 </h1>
               </div>

@@ -32,11 +32,9 @@ export default function Team() {
       <div className="mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              About
-            </h2>
+            <h2 className="text-3xl font-bold  sm:text-4xl">About</h2>
 
-            <p className="text-lg text-gray-500 font-semibold">
+            <p className="text-lg text-gray-500 font-base">
               Optimal Surgical dedicated team of professionals curated by us to
               ensure we maintain the highest quality of results and work. We can
               handle your project from start to finish.
@@ -56,9 +54,9 @@ export default function Team() {
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
-                        <div className="text-lg leading-6 font-bold  tracking-wider space-y-1">
+                        <div className="text-lg leading-6   tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-indigo-600 font-bold tracking-tight ">
+                          <p className="text-medblue-800 font-bold tracking-tight ">
                             {person.role}
                           </p>
                         </div>
@@ -106,6 +104,9 @@ export default function Team() {
                             </a>
                           </li>
                         </ul>
+                        <p className="font-doctor text-4xl text-medblue-800">
+                          Kevin Scales
+                        </p>
                       </div>
                     </div>
                   </div>
