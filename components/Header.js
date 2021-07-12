@@ -18,8 +18,10 @@ export default function Header() {
         <>
           <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
-              <ul className=" h-8 w-8  animate-pulse ">
-                <li className="font-bold">OS</li>
+              <ul className=" font-body">
+                <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
+                  OPTIMAL <span>surgical</span>
+                </li>
                 {/* <Link href="/">
                   <img src="/images/logoI.png" alt="" />
                 </Link> */}

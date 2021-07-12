@@ -32,7 +32,10 @@ export default function Team() {
       <div className="mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-bold  sm:text-4xl">About</h2>
+            <h2 className="text-3xl font-bold text-coolgray-900 sm:text-4xl">
+              About
+            </h2>
+            <hr />
 
             <p className="text-lg text-gray-500 font-base">
               Optimal Surgical dedicated team of professionals curated by us to
@@ -43,26 +46,26 @@ export default function Team() {
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
               {people.map((person) => (
-                <li key={person.name} className="sm:py-8">
+                <li
+                  key={person.name}
+                  className="sm:py-8 font-bold text-coolgray-900"
+                >
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                       <img
-                        className="object-cover shadow-2xl rounded "
+                        className="object-cover  "
                         src={person.imageUrl}
                         alt=""
                       />
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
-                        <div className="text-lg leading-6   tracking-wider space-y-1">
+                        <div className="text-xl  text-coolgray-800   tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-medblue-800 font-bold tracking-tight ">
-                            {person.role}
-                          </p>
+                          <p className="text-coolgray-500   ">{person.role}</p>
                         </div>
-                        <div className="text-lg">
-                          <p className="text-gray-600">
-                            {" "}
+                        <div className="">
+                          <p className="text-gray-500 ">
                             " <em>{person.bio}</em> "
                           </p>
                         </div>
@@ -104,7 +107,7 @@ export default function Team() {
                             </a>
                           </li>
                         </ul>
-                        <p className="font-doctor text-4xl text-medblue-800">
+                        <p className="font-doctor text-4xl text-coolgray-600">
                           Kevin Scales
                         </p>
                       </div>

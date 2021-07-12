@@ -69,13 +69,13 @@ const Home = ({ service, post }) => {
       <div className="font-body ">
         <Team />
         <About />
-        <div className=" p-4 container mx-auto font-body">
+        <div className=" p-4 container mx-auto font-body ">
           <div className="mt-4  container mx-auto ">
-            <h1 className="flex justify-center text-3xl  font-bold  sm:text-4xl ">
-              Our Top Services
+            <h1 className="flex  my-4 justify-center text-3xl  text-coolgray-800 font-bold  sm:text-4xl ">
+              What we do...
             </h1>
-
-            <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+            <hr className="" />
+            <div className=" mt-10 my-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
               {serviceData &&
                 serviceData.map((service, index) => (
                   <div>
@@ -88,12 +88,13 @@ const Home = ({ service, post }) => {
           <div>
             <div>
               <div className="  container mx-auto ">
-                <h1 className="flex justify-center text-3xl font-bold  sm:text-4xl">
+                <h1 className="flex  my-4 justify-center text-3xl font-bold text-coolgray-800 sm:text-4xl">
                   Latest News
                 </h1>
+                <hr className="" />
               </div>
 
-              <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
+              <div className="mt-10 my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
                 {postData &&
                   postData.map((post, index) => (
                     <div>
