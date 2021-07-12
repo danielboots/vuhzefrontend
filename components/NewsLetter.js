@@ -41,13 +41,13 @@ export default function NewsLetter() {
               type="email"
               autoComplete="email"
               required
-              className="w-full px-5 py-3 border border-transparent placeholder-coolgray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-coolgray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
+              className="w-full px-5 py-3 border border-transparent placeholder-coolgray-600 focus:ring-2 focus:ring-offset-2 focus:ring-offset-coolgray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
               placeholder="Enter your email"
             />
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-coolgray-800 focus:ring-indigo-500"
+                className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-coolgray-700 hover:bg-medblue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-coolgray-800 focus:ring-medblue-500"
               >
                 Notify me
               </button>
