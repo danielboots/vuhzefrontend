@@ -16,7 +16,7 @@
 */
 export default function NewsLetter() {
   return (
-    <div className="bg-coolgray-800 pt-1">
+    <div className="bg-coolgray-800 pt-1 font-body">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-0 lg:flex-1">
           <h2
