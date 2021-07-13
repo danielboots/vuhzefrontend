@@ -10,6 +10,7 @@ const Post = ({
   description,
   tagline,
   author,
+  tag,
 }) => {
   return (
     <Layout title={`${title}`} description="News Desk">
@@ -74,6 +75,7 @@ export const getServerSideProps = async (pageContext) => {
     title,
     slug,
     body,
+  
     
     author-> {
       name, 
@@ -89,7 +91,7 @@ export const getServerSideProps = async (pageContext) => {
     },
   
     description,
-    tags,
+    tag,
 
 }`;
 
@@ -107,6 +109,8 @@ export const getServerSideProps = async (pageContext) => {
         mainImage: post.mainImage,
         body: post.body,
         author: post.author,
+
+        tag: post.tag,
       },
     };
   }

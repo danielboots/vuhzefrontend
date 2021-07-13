@@ -26,7 +26,7 @@ export default function Header() {
                 </Link> */}
                 <Link href="/">
                   <img
-                    className=" h-6 w-auto  animate-pulse"
+                    className=" h-6 w-auto "
                     src="/images/OLtext.png"
                     alt=""
                   />
@@ -46,7 +46,7 @@ export default function Header() {
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
-                  <Link href="/Post">
+                  <Link href="/post">
                     <a className="hover:text-gray-800">News</a>
                   </Link>
                   <Link href="/contact">

@@ -1,10 +1,10 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { sanityClient, urlFor } from "../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
-import BlockContent from "@sanity/block-content-to-react";
+// import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
@@ -48,10 +48,15 @@ const Home = ({ service, post }) => {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'post']{
+        `*[_type == 'post'][0..1]{
         title,
         slug,
         body,
+        tag,
+        author-> {
+          title, 
+        },
+       
         mainImage {
             asset-> {
                 _id,
@@ -59,6 +64,7 @@ const Home = ({ service, post }) => {
             },
             alt
         }
+        
 
     }`
       )

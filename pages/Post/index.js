@@ -17,6 +17,11 @@ const post = ({ post }) => {
           title,
           slug,
           body,
+          tag,
+          category-> {
+            name, 
+            
+          },
           mainImage {
               asset-> {
                   _id,

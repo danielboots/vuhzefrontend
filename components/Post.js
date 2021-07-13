@@ -6,7 +6,7 @@ const Post = ({ post }) => {
       <article>
         <div>
           <div className="bg-white pt-4  rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-            <h2 className="text-center py-2 font-black uppercase  text-gray-800">
+            <h2 className="text-center py-2 font-black uppercase  text-coolgray-600">
               {post.title}
             </h2>
 
@@ -15,6 +15,9 @@ const Post = ({ post }) => {
               src={post.mainImage.asset.url}
               alt="alt image name"
             />
+            <div className="bg-medblue-900 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-20 ml-2 mt-2 hover:bg-medblue-800">
+              <span>{post.tag}</span>
+            </div>
 
             {/* <div className="prose text-center">
               Content goes here!

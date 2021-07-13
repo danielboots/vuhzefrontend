@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     <div>
       <div>
         <div className="bg-white rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-          <h2 className="text-center font-black uppercase  text-gray-800 m-2 tracking-wider">
+          <h2 className="text-center font-black uppercase  text-coolgray-600 m-2 tracking-wider">
             {service.title}
           </h2>
 
@@ -18,7 +18,9 @@ const Service = ({ service }) => {
             alt="meh"
           />
           <div className="m-4 text-center">
-            <span className=" text-gray-600 ">{service.description}</span>
+            <span className=" text-coolgray-600  text-justify font-bold">
+              {service.tagline}
+            </span>
           </div>
 
           <Link href={`service/${service.slug.current}`}>

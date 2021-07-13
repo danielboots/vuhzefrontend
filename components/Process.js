@@ -33,7 +33,7 @@ export default function Process() {
               Work with us
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-coolgray-700 sm:text-4xl">
-              Our Process
+              Our Unique approach
             </h3>
             <p className="mt-8 text-lg text-coolgray-500">
               Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
@@ -41,7 +41,7 @@ export default function Process() {
               sed aenean erat arcu morbi.
             </p>
             <div className="mt-5 prose prose-indigo text-gray-500">
-              <h3 className="leading-6 text-coolgray-600 font-semibold tracking-wide uppercase">
+              <h3 className="leading-6 text-coolgray-600 font-semibold tracking-wide uppercase mb-5">
                 How we’re different
               </h3>
               <p>

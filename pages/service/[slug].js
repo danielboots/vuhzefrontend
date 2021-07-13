@@ -15,6 +15,21 @@ const Service = ({
     <Layout title={`Services : ${title}`} description="About| Optimal Surgical">
       <div>
         <main>
+          <div>
+            {/* Main container div */}
+            <div
+              style={{
+                backgroundImage: `url(${mainImage.asset.url})`,
+              }}
+              className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-40v flex justify-center items-center flex-col "
+            >
+              <div className="absolute h-full w-full flex overflow-x-auto bg-coolgray-900 bg-opacity-50 backdrop-filter  "></div>
+              <h1 className=" text-white z-20 uppercase font-body text-center font-bold  tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
+                {title}
+              </h1>
+            </div>
+          </div>
+
           <article className="font-body  shadow-lg mx-auto ">
             <header className="">
               <div className=" h-full w-full flex items-center justify-center p-8">
@@ -23,23 +38,18 @@ const Service = ({
                     {title}
                   </h1>
                   <div>
-                    <img
-                      className="w-full h-32 sm:h-48 object-cover  shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
-                      src={mainImage.asset.url}
-                      alt="alt tag"
-                    />
+                    <p className="text-justify">{description}</p>
                   </div>
-                  <div className="prose  text-center my-10 ">{description}</div>
-                  <Link href="/contact">
-                    <button
-                      type="button"
-                      className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-gray-900 hover:bg-gray-800 justify-end"
-                    >
-                      Enquire ...
-                    </button>
-                  </Link>
                 </div>
               </div>
+              <Link href="/contact">
+                <button
+                  type="button"
+                  className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-gray-900 hover:bg-gray-800 justify-end"
+                >
+                  Enquire ...
+                </button>
+              </Link>
             </header>
           </article>
         </main>
