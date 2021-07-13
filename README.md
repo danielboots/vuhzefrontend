@@ -14,6 +14,11 @@ Optimal Surgical is currently deployed and can be visited directly at **[Optimal
 
 ---
 
+- **[NEXTJS](https://nextjs.org/):** -
+  hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
+- **[REACT](https://reactjs.org/docs/create-a-new-react-app.html):** -
+  A JavaScript library for building user interfaces
+
 - **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):** -
   Is the main language used in this project which allowed me to correctly structure the website, whereby using best practices to use semantic tags where appropriate.
 
@@ -21,7 +26,7 @@ Optimal Surgical is currently deployed and can be visited directly at **[Optimal
 
 - **[VERCEL](https://www.vercel.com/):** - Used in this project to deploy the live site to the web.
 
-- **[SANITY]():** - CMS
+- **[SANITY]():** - CMS unified content platform that powers better digital experiences
 
 - **[JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** - _As part of Bootstrap_ Javascript although I haven't programmed it, was included in the site as part of the Bootstrap framework so that some Bootstrap components such as the navigation toggler would work.
 
