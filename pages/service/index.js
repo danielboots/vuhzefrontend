@@ -42,8 +42,8 @@ const service = ({ service }) => {
       description="services | Optimal Surgical"
     >
       <div className=" p-4 container mx-auto font-body ">
-        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl ">
-          Our Top Services
+        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-coolgray-700 sm:text-3xl ">
+          What we specialise in
         </h1>
 
         <div className=" m-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

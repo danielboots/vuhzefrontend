@@ -33,7 +33,7 @@ const post = ({ post }) => {
   return (
     <Layout title="News Desk" description="News Desk">
       <div className=" p-4 container mx-auto font-body ">
-        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl  ">
+        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-coolgray-700 sm:text-3xl  ">
           News
         </h1>
 

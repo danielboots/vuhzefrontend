@@ -12,29 +12,37 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-8 text-gray-700 tracking-tight  bg-white   sticky top-0 z-50 h-20 "
+      className=" py-8 text-gray-700 tracking-tight  bg-white   sticky top-0 z-50 h-20  "
     >
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
-              <ul className=" font-body">
-                <Link href="/">
+              <ul className=" font-body   ">
+                {/* <Link href="/">
                   <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
                     OPTIMAL <span>surgical</span>
                   </li>
+                </Link> */}
+                <Link href="/">
+                  <img
+                    className=" h-6 w-auto  animate-pulse"
+                    src="/images/OLtext.png"
+                    alt=""
+                  />
                 </Link>
                 {/* <Link href="/">
-                  <img src="/images/logoI.png" alt="" />
+                  <img
+                    className="h-6 w-auto block xl:hidden lg:hidden md:hidden  "
+                    src="/images/oslogo.png"
+                    alt=""
+                  />
                 </Link> */}
               </ul>
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
                 <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
-                  <Link href="/">
-                    <a className="hover:text-gray-800">Index</a>
-                  </Link>
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
@@ -47,7 +55,7 @@ export default function Header() {
                 </ul>
               </div>
 
-              <div className="  flex sm:hidden">
+              <div className="  flex sm:hidden  ">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="text-gray-200 hover:text-white ">
                   <span className="sr-only">Open main menu</span>
@@ -62,7 +70,7 @@ export default function Header() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <ul className="  px-4 pt-6 pb-4 space-y-6 flex uppercase  font-body bg-coolgray-800 w-full  font-bold tracking-widest text-gray-200 flex-col">
+            <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-coolgray-800 w-full  font-bold tracking-widest text-gray-200 flex-col">
               <Link href="/">
                 <a>Index</a>
               </Link>

@@ -76,13 +76,11 @@ export default function Example() {
             </a>
           ))}
         </div>
-        <div className="border-b border-gray-600 border-opacity-50 w-50 "></div>
+        <div className=" flex  border-b border-gray-600 border-opacity-50 w-50 "></div>
 
-        <p className="mt-8 text-center text-sm font-lighter text-gray-600 uppercase">
-          2021 Optimal Surgical LTD. All rights reserved.
-        </p>
-
-        <a href=""></a>
+        <div className=" flex justify-center mt-4 animate-pulse">
+          <img className=" h-6 w-auto " src="/images/OLtext.png" alt="" />
+        </div>
         <p className="mt-4 text-center text-xs font-bold text-gray-200 uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
         </p>
