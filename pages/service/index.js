@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Service from "@/components/Service";
 import Info from "@/components/Info";
+import Hero from "@/components/Hero";
 
 const service = ({ service }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -41,6 +42,7 @@ const service = ({ service }) => {
       title="services | Optimal Surgical"
       description="services | Optimal Surgical"
     >
+      <Hero />
       <div className=" p-4 container mx-auto font-body ">
         <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-coolgray-700 sm:text-3xl ">
           What we specialise in

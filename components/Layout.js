@@ -16,7 +16,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
       {/* <Header /> */}
       <Header />
-      <Hero />
+      {/* <Hero /> */}
 
       {/* children_wraps content */}
 

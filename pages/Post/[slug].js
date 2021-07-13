@@ -12,9 +12,24 @@ const Post = ({
   author,
 }) => {
   return (
-    <Layout title={`Article by : ${author.name}`} description="News Desk">
+    <Layout title={`${title}`} description="News Desk">
       <div>
         <main>
+          <div>
+            {/* Main container div */}
+            <div
+              style={{
+                backgroundImage: `url(${mainImage.asset.url})`,
+              }}
+              className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-50v flex justify-center items-center flex-col "
+            >
+              <div className="absolute h-full w-full flex overflow-x-auto bg-coolgray-900 bg-opacity-70 backdrop-filter  "></div>
+              <h1 className=" text-white z-20 uppercase font-body text-center font-bold  tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
+                {title}
+              </h1>
+            </div>
+          </div>
+
           <article className="font-body  shadow-lg mx-auto ">
             <header className="">
               <div className=" h-full w-full flex items-center justify-center p-8">
@@ -23,26 +38,21 @@ const Post = ({
                     {title}
                   </h1>
                   <div>
-                    <img
-                      className="w-full h-32 sm:h-48 object-cover  shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
-                      src={mainImage.asset.url}
-                      alt="alt tag"
-                    />
+                    <div className="prose  w-full text-center my-10 ">
+                      <BlockContent
+                        blocks={body}
+                        projectId="ta2muy7p"
+                        dataset="production"
+                      />
+                    </div>
                   </div>
-                  <div className="prose  text-center my-10 ">
-                    <BlockContent
-                      blocks={body}
-                      projectId="ta2muy7p"
-                      dataset="production"
-                    />
-                  </div>
-                  <div className=" p-4 justify-end  bg-gradient-to-r from-gray-900 ">
+                  <div className=" p-4 justify-end  item-center font-body ">
                     <img
-                      className="w-16 h-16 object-cover"
+                      className="w-16 h-16 object-cover rounded-full "
                       src={urlFor(author.image).url()}
                       alt="alt tag"
                     />
-                    <p className=" text-white">
+                    <p className=" text-coolgray-500">
                       article by: <strong>{author.name}</strong>
                     </p>
                   </div>

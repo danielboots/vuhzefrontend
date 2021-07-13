@@ -1,10 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "News", href: "#" },
-    { name: "Services", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Services", href: "/services" },
+    { name: "News", href: "/Post" },
+    { name: "Contact", href: "/contact" },
   ],
   social: [
     {
@@ -53,7 +52,7 @@ export default function Example() {
           className="-mx-5 -my-2 flex flex-wrap justify-center"
           aria-label="Footer"
         >
-          {navigation.main.map((item) => (
+          {/* {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2 uppercase font-semibold ">
               <a
                 href={item.href}
@@ -62,7 +61,7 @@ export default function Example() {
                 {item.name}
               </a>
             </div>
-          ))}
+          ))} */}
         </nav>
         <div className="mt-8 flex justify-center space-x-6 my-3 pb-3">
           {navigation.social.map((item) => (
