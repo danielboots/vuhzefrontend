@@ -5,10 +5,7 @@ import Info from "../components/Info";
 
 const contact = () => {
   return (
-    <Layout
-      title="contact | Optimal Surgical"
-      description="contact| Optimal Surgical"
-    >
+    <Layout title="contact | Vuhze" description="contact| Vuhze">
       <Hero />
       <div className="relative bg-white font-body">
         <div className="absolute inset-0">
@@ -51,7 +48,7 @@ const contact = () => {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">contact@OptimalSurgical.com</span>
+                    <span className="ml-3">contact@vuhze.com</span>
                   </dd>
                 </div>
               </dl>
@@ -74,7 +71,7 @@ const contact = () => {
                 <input
                   type="hidden"
                   name="_subject"
-                  value="New submission from Optimal Surgical!"
+                  value="New submission from Vuhze!"
                 ></input>
                 <div>
                   <label htmlFor="full-name" className="sr-only">
@@ -132,10 +129,10 @@ const contact = () => {
                     className="block w-full shadow-sm py-3 px-6 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md "
                     defaultValue="Production incl: Ghost Production"
                   >
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
-                    <option>Medical 1</option>
+                    <option>Web Service 1</option>
+                    <option>Web Service 1</option>
+                    <option>Web Service 1</option>
+                    <option>Web Service 1</option>
                   </select>
                 </div>
 

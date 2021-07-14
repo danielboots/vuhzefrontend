@@ -28,7 +28,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "Optimal Surgical",
-  description: "Optimal Surgical specialises in Medical Services.",
-  keywords: "Medical Services .",
+  title: "Vuhze",
+  description: "Vuhze specialises in Web Development Services.",
+  keywords: "Web Development Services .",
 };

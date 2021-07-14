@@ -19,18 +19,18 @@ export default function Header() {
           <div className="max-w-7xl mx-auto px-4  sm:px-6 lg:px-8">
             <div className="flex justify-between  relative">
               <ul className=" font-body   ">
-                {/* <Link href="/">
+                <Link href="/">
                   <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
                     Vuhze <span>Tech</span>
                   </li>
-                </Link> */}
-                <Link href="/">
+                </Link>
+                {/* <Link href="/">
                   <img
                     className=" h-6 w-auto "
                     src="/images/OLtext.png"
                     alt=""
                   />
-                </Link>
+                </Link> */}
                 {/* <Link href="/">
                   <img
                     className="h-6 w-auto block xl:hidden lg:hidden md:hidden  "
