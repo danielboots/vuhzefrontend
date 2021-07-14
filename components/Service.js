@@ -26,7 +26,7 @@ const Service = ({ service }) => {
           <Link href={`service/${service.slug.current}`}>
             <button
               type="button"
-              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white  bg-coolgray-700 hover:bg-black justify-end"
+              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white  bg-black hover:bg-black justify-end"
             >
               More Info ...
             </button>

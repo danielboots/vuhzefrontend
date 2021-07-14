@@ -32,7 +32,7 @@ const Post = ({ post }) => {
             <Link href={`post/${post.slug.current}`}>
               <button
                 type="button"
-                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-coolgray-700 hover:bg-black justify-end"
+                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-black hover:bg-coolgray-800 justify-end"
               >
                 Read Article...
               </button>

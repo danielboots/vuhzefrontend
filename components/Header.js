@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex justify-between  relative">
               <ul className=" font-body   ">
                 <Link href="/">
-                  <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
+                  <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-black  mr-6">
                     Vuhze <span>Tech</span>
                   </li>
                 </Link>
@@ -42,7 +42,7 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
+                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-black  mr-6">
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
