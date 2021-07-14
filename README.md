@@ -52,6 +52,6 @@ Vuhze is currently deployed and can be visited directly at **[Vuhze-Tech ](https
 
 - **[FAVICON](https://favicon.io/):** - Used to generate the favicon
 
-- **[CSS BEAUTIFIER](https://www.freeformatter.com/css-beautifier.html):** - Formats a CSS files with the chosen indentation level for optimal readability. Supports 4 indentation levels: 2 spaces, 3 spaces, 4 spaces and tabs.
+- **[CSS BEAUTIFIER](https://www.freeformatter.com/css-beautifier.html):** - Formats a CSS files with the chosen indentation level for Vuhze readability. Supports 4 indentation levels: 2 spaces, 3 spaces, 4 spaces and tabs.
 
 - **[PRETTIER](https://prettier.io/):** - Prettier is an opinionated code formatter for HTML CSS JavaScript etc

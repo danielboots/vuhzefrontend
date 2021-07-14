@@ -42,7 +42,7 @@ const Post = ({
                     <div className="prose  w-full text-center my-10 ">
                       <BlockContent
                         blocks={body}
-                        projectId="ta2muy7p"
+                        projectId="b4hlpbby"
                         dataset="production"
                       />
                     </div>

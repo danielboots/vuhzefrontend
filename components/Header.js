@@ -70,7 +70,7 @@ export default function Header() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-coolgray-800 w-full  font-bold tracking-widest text-gray-200 flex-col">
+            <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-black w-full  font-bold tracking-widest text-gray-200 flex-col">
               <Link href="/">
                 <a>Index</a>
               </Link>
