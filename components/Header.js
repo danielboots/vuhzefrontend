@@ -21,7 +21,7 @@ export default function Header() {
               <ul className=" font-body   ">
                 {/* <Link href="/">
                   <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-gray-600  mr-6">
-                    OPTIMAL <span>surgical</span>
+                    Vuhze <span>Tech</span>
                   </li>
                 </Link> */}
                 <Link href="/">

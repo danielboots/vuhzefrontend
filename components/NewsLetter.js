@@ -27,7 +27,7 @@ export default function NewsLetter() {
           </h2>
           <p className="mt-3 max-w-3xl text-lg leading-6 text-coolgray-300">
             We love to keep in touch, if you want the latest upto date info
-            about Optimal Surgical
+            about Vuhze
           </p>
         </div>
         <div className="mt-8 lg:mt-0 lg:ml-8">

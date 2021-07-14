@@ -1,14 +1,14 @@
-## **Optimal Surgical - Medical Services**
+## **Vuhze**
 
-![Optimal Surgical and strap line ](public/images/osresponsive.png)
+![Vuhze and strap line ](public/images/)
 
-Optimal Surgical is currently deployed and can be visited directly at **[Optimal Surgical ](https://optimalsurgical.com.au/)**
+Vuhze is currently deployed and can be visited directly at **[Vuhze-Tech ](https://vuhze.com/)**
 
 ---
 
 ## 📓 **About the project:**
 
-**Optimal Surgical** - Professional Medical Services founded in Australia.
+**Vuhze-Tech** - Professional Medical Services founded in Australia.
 
 ## 💻️ **Technologies Used:**
 

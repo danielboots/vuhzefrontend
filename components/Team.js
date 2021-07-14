@@ -16,8 +16,8 @@
 */
 const people = [
   {
-    name: "Kevin Scales",
-    role: "Founder Optimal Surgical",
+    name: "",
+    role: "Founder ",
     imageUrl: "/images/kevin.jpg",
     bio: "Our team have over 15+ years of industry experience connecting industry players and getting major record label placements and results.",
     twitterUrl: "#",
@@ -38,9 +38,9 @@ export default function Team() {
             <hr />
 
             <p className="text-lg text-gray-500 font-base">
-              Optimal Surgical dedicated team of professionals curated by us to
-              ensure we maintain the highest quality of results and work. We can
-              handle your project from start to finish.
+              Vuhze dedicated team of professionals curated by us to ensure we
+              maintain the highest quality of results and work. We can handle
+              your project from start to finish.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -108,7 +108,7 @@ export default function Team() {
                           </li>
                         </ul>
                         <p className="font-doctor text-4xl text-coolgray-600">
-                          Kevin Scales
+                          Dan Boots
                         </p>
                       </div>
                     </div>
