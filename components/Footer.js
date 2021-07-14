@@ -77,8 +77,12 @@ export default function Example() {
         </div>
         <div className=" flex  border-b border-gray-600 border-opacity-50 w-50 "></div>
 
-        <div className=" flex justify-center mt-4 animate-pulse">
-          <img className=" h-6 w-auto " src="/images/OLtext.png" alt="" />
+        <div className=" flex justify-center mt-4 ">
+          <img
+            className=" h-4 w-auto "
+            src="/images/vuhzelogowhite.png"
+            alt=""
+          />
         </div>
         <p className="mt-4 text-center text-xs font-bold text-gray-200 uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
