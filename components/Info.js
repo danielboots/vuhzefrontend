@@ -4,7 +4,7 @@ const Info = () => {
       <div className="h-56  sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="w-full h-full object-cover"
-          src="/images/servicenew.jpg"
+          src="/images/hero.webp"
           alt=""
         />
       </div>

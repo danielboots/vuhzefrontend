@@ -107,7 +107,7 @@ export default function Team() {
                             </a>
                           </li>
                         </ul>
-                        <p className="font-doctor text-4xl text-coolgray-600">
+                        <p className="font-body text-4xl text-coolgray-600">
                           Dan Boots
                         </p>
                       </div>
