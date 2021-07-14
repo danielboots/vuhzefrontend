@@ -16,7 +16,7 @@
 */
 export default function Process() {
   return (
-    <div className="relative bg-coolgray-50 font-body">
+    <div className="relative bg-black font-body">
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <img
