@@ -15,7 +15,7 @@ const Post = ({ post }) => {
               src={post.mainImage.asset.url}
               alt="alt image name"
             />
-            <div className="bg-medblue-900 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-20 ml-2 mt-2 hover:bg-medblue-800">
+            <div className="bg-indigo-600 text-white text-xs uppercase font-bold rounded opacity-90 p-2 absolute top-20 ml-2 mt-2 hover:bg-medblue-800">
               <span>{post.tag}</span>
             </div>
 
@@ -37,8 +37,6 @@ const Post = ({ post }) => {
                 Read Article...
               </button>
             </Link>
-
-            <p className="text-center font-medium text-gray-600 "></p>
 
             <div className="m-4 text-center">
               <span className="font-bold text-gray-600 "></span>
