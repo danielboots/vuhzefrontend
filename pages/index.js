@@ -6,12 +6,14 @@ import Hero from "../components/Hero";
 import Info from "../components/Info";
 // import BlockContent from "@sanity/block-content-to-react";
 import Service from "@/components/Service";
+import FeatureGrid from "@/components/FeatureGrid";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Team from "@/components/Team";
 import Post from "@/components/Post";
 import Process from "@/components/Process";
 import NewsLetter from "@/components/NewsLetter";
+import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -76,6 +78,9 @@ const Home = ({ service, post }) => {
     <Layout>
       <div className="font-body ">
         <Hero />
+
+        <FeatureGrid />
+
         <Team />
         <About />
         <div className=" p-4 container mx-auto font-body ">
@@ -93,27 +98,26 @@ const Home = ({ service, post }) => {
                 ))}
             </div>
           </div>
+        </div>
+      </div>
+      <Stats />
 
-          <Process />
+      <div className="container mx-auto">
+        <div>
+          <div className=" mt-10 ">
+            <h1 className="flex font-body my-4 justify-center text-3xl font-bold text-coolgray-800 sm:text-4xl">
+              Latest News
+            </h1>
+            <hr className="" />
+          </div>
 
-          <div>
-            <div>
-              <div className=" mt-10 container mx-auto ">
-                <h1 className="flex  my-4 justify-center text-3xl font-bold text-coolgray-800 sm:text-4xl">
-                  Latest News
-                </h1>
-                <hr className="" />
-              </div>
-
-              <div className="mt-10 my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
-                {postData &&
-                  postData.map((post, index) => (
-                    <div>
-                      <Post key={post.id} post={post} />
-                    </div>
-                  ))}
-              </div>
-            </div>
+          <div className="mt-10 my-6 p-4 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
+            {postData &&
+              postData.map((post, index) => (
+                <div>
+                  <Post key={post.id} post={post} />
+                </div>
+              ))}
           </div>
         </div>
       </div>

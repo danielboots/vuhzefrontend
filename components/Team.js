@@ -32,7 +32,7 @@ export default function Team() {
       <div className="mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-bold text-coolgray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold text-coolgray-700 sm:text-4xl">
               About
             </h2>
             <hr />
