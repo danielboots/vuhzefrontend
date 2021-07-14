@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-7 text-gray-700 tracking-tight  bg-white   sticky top-0 z-50 h-20  "
+      className=" py-7 text-gray-700   bg-white   sticky top-0 z-50 h-20  "
     >
       {({ open }) => (
         <>
@@ -20,8 +20,8 @@ export default function Header() {
             <div className="flex justify-between  relative">
               <ul className=" font-body   ">
                 <Link href="/">
-                  <li className="uppercase space-x-8  font-body  font-bold tracking-widest text-black  mr-6">
-                    Vuhze <span>Tech</span>
+                  <li className="uppercase space-x-8 t font-body text-md font-black  text-black  mr-6">
+                    Vuhze
                   </li>
                 </Link>
                 {/* <Link href="/">
@@ -42,7 +42,7 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body  font-bold tracking-widest text-black  mr-6">
+                <ul className="  uppercase space-x-8  font-body text-md font-bold tracking-widest text-black  mr-6">
                   <Link href="/service">
                     <a className="hover:text-gray-800">Services</a>
                   </Link>
