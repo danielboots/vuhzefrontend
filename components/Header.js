@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <Disclosure
       as="nav"
-      className=" py-7 text-gray-700   bg-white   sticky top-0 z-50 h-20  "
+      className=" py-7 text-gray-500   bg-white   sticky top-0 z-50 h-20  "
     >
       {({ open }) => (
         <>
@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex justify-between  relative">
               <ul className=" font-body   ">
                 {/* <Link href="/">
-                  <li className="uppercase space-x-8 t font-body text-md font-black  text-black  mr-6">
+                  <li className="uppercase space-x-8 t font-body text-md font-gray-500  text-black  mr-6">
                     Vuhze
                   </li>
                 </Link> */}
@@ -42,15 +42,15 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body text-md font-bold tracking-widest text-black  mr-6">
+                <ul className="  uppercase space-x-8  font-body text-md font-bold tracking-widest text-gray-800  mr-6">
                   <Link href="/service">
-                    <a className="hover:text-gray-800">Services</a>
+                    <a className="hover:text-gray-600">Services</a>
                   </Link>
                   <Link href="/Post">
-                    <a className="hover:text-gray-800">News</a>
+                    <a className="hover:text-gray-600">News</a>
                   </Link>
                   <Link href="/contact">
-                    <a className="hover:text-gray-800">Contact</a>
+                    <a className="hover:text-gray-600">Contact</a>
                   </Link>
                 </ul>
               </div>
@@ -70,7 +70,7 @@ export default function Header() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-black w-full  font-bold tracking-widest text-gray-200 flex-col">
+            <ul className="  px-4 py-6   space-y-6 flex uppercase  font-body bg-gray-900 w-full  font-bold tracking-widest text-gray-200 flex-col">
               <Link href="/">
                 <a>Index</a>
               </Link>
