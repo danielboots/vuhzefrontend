@@ -52,6 +52,14 @@ export default function Header() {
                   <Link href="/contact">
                     <a className="hover:text-gray-600">Contact</a>
                   </Link>
+                  <Link href="/">
+                    <button
+                      type="button"
+                      className=" px-4 py-2 uppercase  text-xs  rounded-sm   text-white bg-indigo-800 hover:bg-indigo-600 justify-end"
+                    >
+                      Login
+                    </button>
+                  </Link>
                 </ul>
               </div>
 

@@ -24,7 +24,7 @@
 
 @media (max-width: 960px) {
   .herohome {
-    background: url("/images/heroII.jpg") center center;
+    background: url("/images/hero.webp") bottom no-repeat center;
     margin: auto;
     height: 40vh;
 
