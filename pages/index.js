@@ -14,6 +14,9 @@ import Post from "@/components/Post";
 import Process from "@/components/Process";
 import NewsLetter from "@/components/NewsLetter";
 import Stats from "@/components/Stats";
+import firebase from "../firebase/initFirebase";
+
+firebase();
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);

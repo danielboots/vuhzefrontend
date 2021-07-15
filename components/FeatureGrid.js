@@ -1,6 +1,6 @@
 const FeatureGrid = () => {
   return (
-    <div class=" container mx-auto text-lg text-gray-500 text-justify grid  grid-cols-1 p-4 m-10 sm:grid-cols-2">
+    <div className=" container mx-auto text-lg text-gray-500 text-justify grid  grid-cols-1 p-4 m-10 sm:grid-cols-2">
       <div className="p-4  ">
         <img
           src="/images/hero.webp"
