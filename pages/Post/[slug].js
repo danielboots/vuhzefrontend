@@ -24,7 +24,7 @@ const Post = ({
               }}
               className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-50v flex justify-center items-center flex-col "
             >
-              <div className="absolute h-full w-full flex overflow-x-auto bg-black bg-opacity-70 backdrop-filter  "></div>
+              <div className="absolute h-full w-full flex overflow-x-auto bg-gray-900 bg-opacity-70 backdrop-filter  "></div>
               <h1 className=" text-white z-20 uppercase font-body text-center font-bold  tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
                 {title}
               </h1>
@@ -35,7 +35,7 @@ const Post = ({
             <header className="">
               <div className=" h-full w-full flex items-center justify-center p-8">
                 <div className="bg-white rounded p-6">
-                  <h1 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
+                  <h1 className="text-4xl mb-4 flex justify-center font-gray-500  text-gray-900 tracking-tight uppercase">
                     {title}
                   </h1>
                   <div>
@@ -53,7 +53,7 @@ const Post = ({
                       src={urlFor(author.image).url()}
                       alt="alt tag"
                     />
-                    <p className=" text-coolgray-500">
+                    <p className=" text-gray-500">
                       article by: <strong>{author.name}</strong>
                     </p>
                   </div>

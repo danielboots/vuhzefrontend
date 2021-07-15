@@ -10,7 +10,7 @@ const FeatureGrid = () => {
       </div>
       <div className=" px-4">
         <div className=" pt-4">
-          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700 text-s">
+          <div className="text-3xl font-bold pb-4 tracking-wide text-gray-700 text-s">
             Heading 1
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -24,7 +24,7 @@ const FeatureGrid = () => {
       </div>
       <div className="px-4">
         <div className=" pt-4">
-          <div className="text-3xl font-bold pb-4 tracking-wide text-coolgray-700">
+          <div className="text-3xl font-bold pb-4 tracking-wide text-gray-700">
             Heading 2
           </div>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

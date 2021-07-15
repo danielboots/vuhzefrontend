@@ -32,7 +32,7 @@ export default function Team() {
       <div className="mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-bold text-coolgray-700 sm:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-700 sm:text-4xl">
               About
             </h2>
             <hr />
@@ -48,7 +48,7 @@ export default function Team() {
               {people.map((person) => (
                 <li
                   key={person.name}
-                  className="sm:py-8 font-bold text-coolgray-900"
+                  className="sm:py-8 font-bold text-gray-900"
                 >
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
@@ -60,9 +60,9 @@ export default function Team() {
                     </div>
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
-                        <div className="text-xl  text-coolgray-800   tracking-wider space-y-1">
+                        <div className="text-xl  text-gray-800   tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-coolgray-500   ">{person.role}</p>
+                          <p className="text-gray-500   ">{person.role}</p>
                         </div>
                         <div className="">
                           <p className="text-gray-500 ">
@@ -107,7 +107,7 @@ export default function Team() {
                             </a>
                           </li>
                         </ul>
-                        <p className="font-body text-4xl text-coolgray-600">
+                        <p className="font-body text-4xl text-gray-600">
                           Dan Boots
                         </p>
                       </div>

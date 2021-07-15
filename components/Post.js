@@ -6,7 +6,7 @@ const Post = ({ post }) => {
       <article>
         <div>
           <div className="bg-white pt-4  rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-            <h2 className="text-center py-2 font-black uppercase  text-coolgray-600">
+            <h2 className="text-center py-2 font-gray-500 uppercase  text-gray-600">
               {post.title}
             </h2>
 
@@ -32,7 +32,7 @@ const Post = ({ post }) => {
             <Link href={`post/${post.slug.current}`}>
               <button
                 type="button"
-                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-black hover:bg-coolgray-800 justify-end"
+                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-gray-900 hover:bg-gray-800 justify-end"
               >
                 Read Article...
               </button>

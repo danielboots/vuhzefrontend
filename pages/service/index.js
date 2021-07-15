@@ -41,7 +41,7 @@ const service = ({ service }) => {
     <Layout title="services | Vuhze Tech" description="services | Vuhze Tech">
       <Hero />
       <div className=" p-4 container mx-auto font-body ">
-        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-coolgray-700 sm:text-3xl ">
+        <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-gray-700 sm:text-3xl ">
           What we specialise in
         </h1>
 

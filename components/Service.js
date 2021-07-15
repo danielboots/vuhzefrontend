@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     <div>
       <div>
         <div className="bg-white rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-          <h2 className="text-center font-black uppercase  text-coolgray-600 m-2 tracking-wider">
+          <h2 className="text-center font-gray-500 uppercase  text-gray-600 m-2 tracking-wider">
             {service.title}
           </h2>
 
@@ -18,7 +18,7 @@ const Service = ({ service }) => {
             alt="meh"
           />
           <div className="m-4 text-center">
-            <span className=" text-coolgray-600  text-justify font-bold">
+            <span className=" text-gray-600  text-justify font-bold">
               {service.tagline}
             </span>
           </div>
@@ -26,7 +26,7 @@ const Service = ({ service }) => {
           <Link href={`service/${service.slug.current}`}>
             <button
               type="button"
-              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white  bg-black hover:bg-black justify-end"
+              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white  bg-gray-900 hover:bg-gray-900 justify-end"
             >
               More Info ...
             </button>

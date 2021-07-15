@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        coolgray: colors.blueGray,
+        gray: colors.gray,
+        bluegray: colors.blueGray,
         medblue: colors.blue,
       },
 
       fontFamily: {
         body: ["Red Hat Display"],
-        doctor: ["Doctor"],
       },
 
       height: {

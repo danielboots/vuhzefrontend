@@ -85,7 +85,7 @@ const Home = ({ service, post }) => {
         <About />
         <div className=" p-4 container mx-auto font-body ">
           <div className="mt-4  container mx-auto ">
-            <h1 className="flex  my-4 justify-center text-3xl  text-coolgray-800 font-bold  sm:text-4xl ">
+            <h1 className="flex  my-4 justify-center text-3xl  text-gray-700 font-bold  sm:text-4xl ">
               What we do...
             </h1>
             <hr className="" />
@@ -105,7 +105,7 @@ const Home = ({ service, post }) => {
       <div className="container mx-auto">
         <div>
           <div className=" mt-10 ">
-            <h1 className="flex font-body my-4 justify-center text-3xl font-bold text-coolgray-800 sm:text-4xl">
+            <h1 className="flex font-body my-4 justify-center text-3xl font-bold text-gray-700 sm:text-4xl">
               Latest News
             </h1>
             <hr className="" />
