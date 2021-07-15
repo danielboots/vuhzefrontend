@@ -99,6 +99,22 @@ export default function Header() {
               <Link href="/contact">
                 <a>Contact</a>
               </Link>
+              <Link href="/">
+                <button
+                  type="button"
+                  className=" px-4 py-2 text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                >
+                  Login
+                </button>
+              </Link>
+              <Link href="/">
+                <button
+                  type="button"
+                  className=" px-4 py-2  text-sm tracking-widest font-bold uppercase rounded-sm text-white  bg-indigo-700 hover:bg-indigo-600 justify-end"
+                >
+                  Register
+                </button>
+              </Link>
             </ul>
           </Disclosure.Panel>
         </>

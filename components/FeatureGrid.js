@@ -3,7 +3,7 @@ const FeatureGrid = () => {
     <div class=" container mx-auto text-lg text-gray-500 text-justify grid  grid-cols-1 p-4 m-10 sm:grid-cols-2">
       <div className="p-4  ">
         <img
-          src="/images/3.webp"
+          src="/images/hero.webp"
           className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />
@@ -38,7 +38,7 @@ const FeatureGrid = () => {
       </div>
       <div className="px-4">
         <img
-          src="/images/1.webp"
+          src="/images/hero.webp"
           className="hover:shadow-2xl transition duration-300 ease-in-out relative border-1"
           alt=""
         />

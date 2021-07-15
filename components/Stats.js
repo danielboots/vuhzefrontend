@@ -34,7 +34,7 @@ export default function Stats() {
           <div className="h-full xl:relative xl:col-start-2">
             <img
               className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-              src="images/heroII.jpg"
+              src="images/hero.webp"
               alt="People working on laptops"
             />
             <div
@@ -50,7 +50,7 @@ export default function Stats() {
             Vuhze DATA
           </h2>
           <p className="mt-3 text-3xl font-bold tracking-wide text-white">
-            Get actionable data that will help grow your Medical practice
+            Get actionable data that will help grow your Online presence
           </p>
           <p className="mt-5 text-lg text-gray-300">
             Insert text here to big your company up or achievements you have
