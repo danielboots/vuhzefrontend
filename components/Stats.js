@@ -52,7 +52,7 @@ export default function Stats() {
           <p className="mt-3 text-3xl font-bold tracking-wide text-white">
             Get actionable data that will help grow your Online presence
           </p>
-          <p className="mt-5 text-lg text-gray-300">
+          <p className="mt-5  text-gray-300">
             Insert text here to big your company up or achievements you have
             accomplished... why they should pick you.
           </p>
