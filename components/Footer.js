@@ -172,7 +172,7 @@ export default function Example() {
               <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                 <button
                   type="submit"
-                  className="w-full bg-indigo-700 hover:bg-indigo-600  border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-lg font-mediu3 text-white "
+                  className="w-full font-bold tracking-wider bg-indigo-700 hover:bg-indigo-600  border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-lg font-mediu3 text-white "
                 >
                   Subscribe
                 </button>
