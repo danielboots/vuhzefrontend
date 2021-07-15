@@ -81,7 +81,7 @@ const Home = ({ service, post }) => {
 
         <FeatureGrid />
 
-        <Team />
+        {/* <Team /> */}
         <About />
         <div className=" p-4 container mx-auto font-body ">
           <div className="mt-4  container mx-auto ">
