@@ -42,7 +42,7 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="  uppercase space-x-8  font-body text-md font-bold tracking-widest text-gray-800  mr-6">
+                <ul className="  uppercase space-x-4  font-body text-md font-bold tracking-widest text-gray-800  mr-4">
                   <Link href="/service">
                     <a className="hover:text-gray-600">Services</a>
                   </Link>
@@ -55,9 +55,17 @@ export default function Header() {
                   <Link href="/">
                     <button
                       type="button"
-                      className=" px-4 py-2 uppercase  text-xs  rounded-sm   text-white bg-indigo-800 hover:bg-indigo-600 justify-end"
+                      className=" px-4 py-2 text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
                     >
                       Login
+                    </button>
+                  </Link>
+                  <Link href="/">
+                    <button
+                      type="button"
+                      className=" px-4 py-2  text-sm tracking-widest font-bold uppercase rounded-sm text-white  bg-indigo-700 hover:bg-indigo-600 justify-end"
+                    >
+                      Register
                     </button>
                   </Link>
                 </ul>

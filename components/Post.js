@@ -15,7 +15,7 @@ const Post = ({ post }) => {
               src={post.mainImage.asset.url}
               alt="alt image name"
             />
-            <div className="bg-indigo-600 text-white text-xs uppercase font-bold rounded opacity-90 p-2 absolute top-20 ml-2 mt-2 hover:bg-medblue-800">
+            <div className="bg-indigo-700 hover:bg-indigo-600 text-white text-xs uppercase font-bold rounded opacity-90 p-2 absolute top-20 ml-2 mt-2 ">
               <span>{post.tag}</span>
             </div>
 
