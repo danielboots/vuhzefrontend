@@ -74,7 +74,7 @@ export default function Example() {
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
                   Solutions
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -82,7 +82,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -91,7 +91,7 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -99,7 +99,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -110,7 +110,7 @@ export default function Example() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
                   Company
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -118,7 +118,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -127,7 +127,7 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
                   Legal
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -135,7 +135,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -146,10 +146,10 @@ export default function Example() {
             </div>
           </div>
           <div className="mt-8 xl:mt-0">
-            <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
+            <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
               Subscribe to our newsletter
             </h3>
-            <p className="mt-4 text-base text-gray-300">
+            <p className="mt-4 text-base text-gray-500">
               The latest news, articles, and resources, sent to your inbox
               weekly.
             </p>
