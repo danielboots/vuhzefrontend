@@ -77,7 +77,7 @@ export default function Example() {
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
+                <h3 className="text-lg font-semibold text-gray-600 tracking-widest uppercase">
                   Solutions
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -85,7 +85,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-lg  text-gray-300 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -94,7 +94,7 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
+                <h3 className="text-lg font-semibold text-gray-600 tracking-widest uppercase">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -102,7 +102,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-lg text-gray-300 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -113,7 +113,7 @@ export default function Example() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
+                <h3 className="text-lg font-semibold text-gray-600 tracking-widest uppercase">
                   Company
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -121,7 +121,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-lg text-gray-300 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -130,7 +130,7 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
+                <h3 className="text-lg font-semibold text-gray-600 tracking-widest uppercase">
                   Legal
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -138,7 +138,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-lg text-gray-300 hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -149,10 +149,10 @@ export default function Example() {
             </div>
           </div>
           <div className="mt-8 xl:mt-0">
-            <h3 className="text-sm font-semibold text-gray-600 tracking-widest uppercase">
+            <h3 className="text-lg font-semibold text-gray-600 tracking-widest uppercase">
               Subscribe to our newsletter
             </h3>
-            <p className="mt-4 text-base text-gray-500">
+            <p className="mt-4 text-lg text-gray-300">
               The latest news, articles, and resources, sent to your inbox
               weekly.
             </p>
@@ -166,13 +166,13 @@ export default function Example() {
                 id="email-address"
                 autoComplete="email"
                 required
-                className="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-gray-900 "
+                className="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-lg text-gray-300 "
                 placeholder="Enter your email"
               />
               <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                 <button
                   type="submit"
-                  className="w-full bg-indigo-700 hover:bg-indigo-600  border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white "
+                  className="w-full bg-indigo-700 hover:bg-indigo-600  border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-lg font-mediu3 text-white "
                 >
                   Subscribe
                 </button>
