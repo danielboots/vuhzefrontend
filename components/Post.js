@@ -6,7 +6,7 @@ const Post = ({ post }) => {
       <article>
         <div>
           <div className="bg-white pt-4  rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-            <h2 className="text-center py-2 font-gray-500 uppercase  text-gray-600">
+            <h2 className="text-center py-2 font-gray-500 uppercase font-bold text-gray-600">
               {post.title}
             </h2>
 
@@ -15,7 +15,7 @@ const Post = ({ post }) => {
               src={post.mainImage.asset.url}
               alt="alt image name"
             />
-            <div className="bg-indigo-700 hover:bg-indigo-600 text-white text-xs uppercase font-bold rounded opacity-90 p-2 absolute top-20 ml-2 mt-2 ">
+            <div className="bg-gray-800  hover:bg-gray-600 text-white text-xs uppercase font-bold rounded  p-2 absolute top-20  mt-2 ">
               <span>{post.tag}</span>
             </div>
 

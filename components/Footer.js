@@ -65,7 +65,10 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-gray-900 font-body " aria-labelledby="footer-heading">
+    <footer
+      className="bg-gray-900 font-body  "
+      aria-labelledby="footer-heading"
+    >
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
