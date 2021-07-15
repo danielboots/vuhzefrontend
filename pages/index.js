@@ -23,7 +23,7 @@ const Home = ({ service, post }) => {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'service'][0..3]{
+        `*[_type == 'service'][0..2]{
         title,
         slug,
         tagline,
@@ -50,7 +50,7 @@ const Home = ({ service, post }) => {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'post'][0..3]{
+        `*[_type == 'post'][0..2]{
         title,
         slug,
         body,
@@ -85,11 +85,11 @@ const Home = ({ service, post }) => {
         <About />
         <div className=" p-4 container mx-auto font-body ">
           <div className="mt-4  container mx-auto ">
-            <h1 className="flex uppercase my-4 justify-center tracking-wide text-3xl  text-gray-700 font-bold  sm:text-4xl ">
-              What we do...
+            <h1 className="flex font-body  my-4 justify-center text-3xl font-bold text-gray-700 sm:text-4xl">
+              What we do
             </h1>
             <hr className="" />
-            <div className=" mt-10 my-6 p-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+            <div className=" mt-10 my-6 p-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
               {serviceData &&
                 serviceData.map((service, index) => (
                   <div>
@@ -105,13 +105,13 @@ const Home = ({ service, post }) => {
       <div className="container mx-auto">
         <div>
           <div className=" mt-10 ">
-            <h1 className="flex font-body  uppercase tracking-wide my-4 justify-center text-3xl font-bold text-gray-700 sm:text-4xl">
+            <h1 className="flex font-body  my-4 justify-center text-3xl font-bold text-gray-700 sm:text-4xl">
               Latest News
             </h1>
             <hr className="" />
           </div>
 
-          <div className=" mt-10 my-6 p-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className=" mt-10 my-6 p-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {postData &&
               postData.map((post, index) => (
                 <div>
