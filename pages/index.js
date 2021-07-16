@@ -14,9 +14,6 @@ import Post from "@/components/Post";
 import Process from "@/components/Process";
 import NewsLetter from "@/components/NewsLetter";
 import Stats from "@/components/Stats";
-import firebase from "../firebase/initFirebase";
-
-firebase();
 
 const Home = ({ service, post }) => {
   const [serviceData, setServiceData] = useState(null);
@@ -86,6 +83,7 @@ const Home = ({ service, post }) => {
 
         {/* <Team /> */}
         <About />
+
         <div className=" p-4 container mx-auto font-body ">
           <div className="mt-4  container mx-auto ">
             <h1 className="flex font-body  my-4 justify-center text-3xl font-bold text-gray-700 sm:text-4xl">
