@@ -52,7 +52,7 @@ export default function Header() {
                   <Link href="/contact">
                     <a className="hover:text-gray-600">Contact</a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/account/login">
                     <button
                       type="button"
                       className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
@@ -60,7 +60,7 @@ export default function Header() {
                       Login
                     </button>
                   </Link>
-                  <Link href="/">
+                  <Link href="/account/register">
                     <button
                       type="button"
                       className=" p-2  text-sm tracking-widest font-bold uppercase rounded-sm text-white  bg-indigo-700 hover:bg-indigo-600 justify-end"
