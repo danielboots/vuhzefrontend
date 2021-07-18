@@ -1,18 +1,20 @@
 // import Link from "next/link";
-import { sanityClient, urlFor } from "../sanity";
-import React, { useState, useEffect } from "react";
-import Layout from "../components/Layout";
-import Hero from "../components/Hero";
 // import Info from "../components/Info";
 // import BlockContent from "@sanity/block-content-to-react";
+// import Team from "@/components/Team";
+// import Process from "@/components/Process";
+// import NewsLetter from "@/components/NewsLetter";
+// import { auth } from "./../firebase/utils";
+
+import { sanityClient, urlFor } from "../sanity";
+import React, { useState, useEffect, Component } from "react";
+import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 import Service from "@/components/Service";
 import FeatureGrid from "@/components/FeatureGrid";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
-// import Team from "@/components/Team";
 import Post from "@/components/Post";
-// import Process from "@/components/Process";
-// import NewsLetter from "@/components/NewsLetter";
 import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {
