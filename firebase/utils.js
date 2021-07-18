@@ -9,8 +9,7 @@ import { firebaseConfig } from "./config";
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
-} else {
-  firebase.app(); // if already initialized, use that one
+  console.log("Firebase was successfully init.");
 }
 
 export const auth = firebase.auth();

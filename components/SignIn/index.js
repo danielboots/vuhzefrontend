@@ -11,7 +11,7 @@ class SignIn extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubit} action="">
+      <form onSubmit={this.handleSubmit} action="">
         <div>
           Sign in Methods
           <Buttons
