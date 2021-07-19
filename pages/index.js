@@ -1,5 +1,5 @@
 // import Link from "next/link";
-// import Info from "../components/Info";
+// import Info from "@/components/Info";
 // import BlockContent from "@sanity/block-content-to-react";
 // import Team from "@/components/Team";
 // import Process from "@/components/Process";
@@ -7,12 +7,12 @@
 
 // import Head from "next/head";
 import { auth } from "firebase";
-import { useAuth } from "../lib/auth";
+import { useAuth } from "@/lib/auth";
 
-import { sanityClient } from "../sanity";
+import { sanityClient } from "/sanity";
 import React, { useState, useEffect } from "react";
-import Layout from "../components/Layout";
-import Hero from "../components/Hero";
+import Layout from "@/components/Layout";
+import Hero from "@/components/Hero";
 import Service from "@/components/Service";
 import FeatureGrid from "@/components/FeatureGrid";
 import About from "@/components/About";
@@ -146,7 +146,7 @@ const Home = ({ service, post }) => {
             </button>
           ) : (
             <button
-              onClick={(e) => auth.signinWithGithub()}
+              onClick={(e) => auth.signinWithGitHub()}
               className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
             >
               Sign In

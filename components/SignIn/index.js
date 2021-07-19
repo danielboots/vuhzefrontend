@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Buttons from "@/components/forms/Button";
 import { signInWithGoogle } from "firebase/utils";
 
-("./../firebase/utils");
+("./@/firebase/utils");
 
 class SignIn extends Component {
   handleSubmit = async (e) => {

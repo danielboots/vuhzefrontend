@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { auth } from "firebase";
-import { useAuth } from "../lib/auth";
+import { useAuth } from "@/lib/auth";
 
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
@@ -66,7 +66,7 @@ export default function Header() {
                     </button>
                   ) : (
                     <button
-                      onClick={(e) => auth.signinWithGithub()}
+                      onClick={(e) => auth.signinWithGitHub()}
                       className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
                     >
                       Sign In
@@ -121,7 +121,7 @@ export default function Header() {
                 </button>
               ) : (
                 <button
-                  onClick={(e) => auth.signinWithGithub()}
+                  onClick={(e) => auth.signinWithGitHub()}
                   className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
                 >
                   Sign In

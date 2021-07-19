@@ -1,4 +1,4 @@
-import { sanityClient, urlFor } from "../../sanity";
+import { sanityClient, urlFor } from "@/@/sanity";
 import Layout from "@/components/Layout";
 import BlockContent from "@sanity/block-content-to-react";
 

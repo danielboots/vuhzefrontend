@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
+import Layout from "@/components/Layout";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import Hero from "@/components/Hero";
-import Info from "../components/Info";
+import Info from "@/components/Info";
 
 const contact = () => {
   return (
