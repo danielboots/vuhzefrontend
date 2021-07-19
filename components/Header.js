@@ -115,6 +115,9 @@ export default function Header() {
               <Link href="/contact">
                 <a>Contact</a>
               </Link>
+              <Link href="/dashboard">
+                <a className="hover:text-gray-600">Dashboard</a>
+              </Link>
               {auth?.user ? (
                 <button
                   onClick={(e) => auth.signout()}
