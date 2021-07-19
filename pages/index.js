@@ -126,19 +126,35 @@ const Home = ({ service, post }) => {
       </div>
 
       <div>
-        <h1 className="title">Testing Auth</h1>
+        <Partners />
 
-        <p className="description">
-          Current user: <code>{auth?.user ? auth.user.email : "None"}</code>
-        </p>
-        {auth?.user ? (
-          <button onClick={(e) => auth.signout()}>Sign Out</button>
-        ) : (
-          <button onClick={(e) => auth.signinWithGithub()}>Sign In</button>
-        )}
+        <div className="container mx-auto p-4 bg-gray-100 m-3">
+          <h1 className="font-body  my-4 justify-center text-3xl font-bold text-gray-500 sm:text-2xl">
+            Authentication{" "}
+          </h1>
+
+          <p className="font-body  my-4 justify-center text-lg font-bold text-gray-500 sm:text-lg">
+            Current user:
+            <div className="">{auth?.user ? auth.user.email : "None"}</div>
+          </p>
+          {auth?.user ? (
+            <button
+              onClick={(e) => auth.signout()}
+              className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+            >
+              Sign Out
+            </button>
+          ) : (
+            <button
+              onClick={(e) => auth.signinWithGithub()}
+              className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+            >
+              Sign In
+            </button>
+          )}
+        </div>
       </div>
 
-      <Partners />
       {/* <Info />
       <NewsLetter /> */}
     </Layout>
