@@ -1,4 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
+import { auth } from "firebase";
+import { useAuth } from "../lib/auth";
+
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon, BellIcon } from "@heroicons/react/outline";
@@ -9,6 +12,7 @@ function classNames(...classes) {
 import Link from "next/link";
 
 export default function Header() {
+  const auth = useAuth();
   return (
     <Disclosure
       as="nav"
@@ -52,14 +56,14 @@ export default function Header() {
                   <Link href="/contact">
                     <a className="hover:text-gray-600">Contact</a>
                   </Link>
-                  <Link href="/account/login">
-                    <button
-                      type="button"
-                      className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
-                    >
-                      Login
-                    </button>
-                  </Link>
+
+                  <button
+                    onClick={(e) => auth.signinWithGithub()}
+                    className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                  >
+                    Sign In
+                  </button>
+
                   <Link href="/account/register">
                     <button
                       type="button"

@@ -4,10 +4,13 @@
 // import Team from "@/components/Team";
 // import Process from "@/components/Process";
 // import NewsLetter from "@/components/NewsLetter";
-// import { auth } from "./../firebase/utils";
 
-import { sanityClient, urlFor } from "../sanity";
-import React, { useState, useEffect, Component } from "react";
+// import Head from "next/head";
+import { auth } from "firebase";
+import { useAuth } from "../lib/auth";
+
+import { sanityClient } from "../sanity";
+import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import Service from "@/components/Service";
@@ -18,6 +21,7 @@ import Post from "@/components/Post";
 import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {
+  const auth = useAuth();
   const [serviceData, setServiceData] = useState(null);
   const [postData, setPost] = useState(null);
   console.log(serviceData);
@@ -38,11 +42,8 @@ const Home = ({ service, post }) => {
           alt,
       },
       
-
-
         description,
         tags,
-
     }`
       )
       .then((data) => setServiceData(data))
@@ -69,7 +70,6 @@ const Home = ({ service, post }) => {
             alt
         }
         
-
     }`
       )
       .then((data) => setPost(data))
@@ -123,6 +123,19 @@ const Home = ({ service, post }) => {
               ))}
           </div>
         </div>
+      </div>
+
+      <div>
+        <h1 className="title">Testing Auth</h1>
+
+        <p className="description">
+          Current user: <code>{auth?.user ? auth.user.email : "None"}</code>
+        </p>
+        {auth?.user ? (
+          <button onClick={(e) => auth.signout()}>Sign Out</button>
+        ) : (
+          <button onClick={(e) => auth.signinWithGithub()}>Sign In</button>
+        )}
       </div>
 
       <Partners />
