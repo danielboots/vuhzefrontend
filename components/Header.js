@@ -57,12 +57,21 @@ export default function Header() {
                     <a className="hover:text-gray-600">Contact</a>
                   </Link>
 
-                  <button
-                    onClick={(e) => auth.signinWithGithub()}
-                    className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
-                  >
-                    Sign In
-                  </button>
+                  {auth?.user ? (
+                    <button
+                      onClick={(e) => auth.signout()}
+                      className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                    >
+                      Sign Out
+                    </button>
+                  ) : (
+                    <button
+                      onClick={(e) => auth.signinWithGithub()}
+                      className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                    >
+                      Sign In
+                    </button>
+                  )}
 
                   <Link href="/account/register">
                     <button
@@ -103,14 +112,22 @@ export default function Header() {
               <Link href="/contact">
                 <a>Contact</a>
               </Link>
-              <Link href="/">
+              {auth?.user ? (
                 <button
-                  type="button"
-                  className=" px-4 py-2 text-sm tracking-widest font-bold uppercase  rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                  onClick={(e) => auth.signout()}
+                  className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
                 >
-                  Login
+                  Sign Out
                 </button>
-              </Link>
+              ) : (
+                <button
+                  onClick={(e) => auth.signinWithGithub()}
+                  className=" p-2  text-sm tracking-widest font-bold uppercase text-md rounded-sm text-white bg-indigo-700 hover:bg-indigo-600 justify-end"
+                >
+                  Sign In
+                </button>
+              )}
+
               <Link href="/">
                 <button
                   type="button"
