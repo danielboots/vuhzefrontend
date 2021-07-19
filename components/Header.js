@@ -2,7 +2,6 @@
 import { auth } from "firebase";
 import { useAuth } from "@/lib/auth";
 
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon, BellIcon } from "@heroicons/react/outline";
 
@@ -55,6 +54,10 @@ export default function Header() {
                   </Link>
                   <Link href="/contact">
                     <a className="hover:text-gray-600">Contact</a>
+                  </Link>
+
+                  <Link href="/dashboard">
+                    <a className="hover:text-gray-600">Dashboard</a>
                   </Link>
 
                   {auth?.user ? (

@@ -9,6 +9,7 @@ const EmptyState = () => {
           {" "}
           Empty state for testing purposes
           <div className="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+          <p>Welcome to your Vuhze web dev platform. </p>
         </div>
         {/* /End replace */}
       </div>
