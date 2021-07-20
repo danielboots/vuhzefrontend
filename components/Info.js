@@ -1,10 +1,10 @@
 const Info = () => {
   return (
-    <div className="relative bg-coolgray-800 font-body ">
+    <div className="relative bg-gray-900 font-body ">
       <div className="h-56  sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="w-full h-full object-cover"
-          src="/images/servicenew.jpg"
+          src="/images/hero.webp"
           alt=""
         />
       </div>
@@ -16,10 +16,11 @@ const Info = () => {
           <p className="mt-2 text-white text-3xl font-bold  sm:text-4xl">
             Professional Web Development
           </p>
-          <p className="mt-3 text-lg text-gray-300">
-            Vuhze dedicated team of professionals curated by us to ensure we
-            maintain the highest quality of results and work. We can handle your
-            project from start to finish.
+          <p className="mt-3 text-lg text-gray-500">
+            Vuhze dedicated team of Web Development professionals with over 15+
+            years of experience in the tech market ensure we maintain the
+            highest quality of results and work. We can efficiently handle your
+            project from start to finish bringing in the results that matters.
           </p>
         </div>
       </div>
