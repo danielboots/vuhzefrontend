@@ -17,7 +17,7 @@ import Service from "@/components/Service";
 import FeatureGrid from "@/components/FeatureGrid";
 import About from "@/components/About";
 import Partners from "@/components/Partners";
-import Post from "@/components/Post";
+import News from "@/components/News";
 import Stats from "@/components/Stats";
 
 const Home = ({ service, post }) => {

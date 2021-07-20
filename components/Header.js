@@ -49,7 +49,7 @@ export default function Header() {
                   <Link href="/service">
                     <a className=" hover:text-gray-600 ">Services</a>
                   </Link>
-                  <Link href="/Post">
+                  <Link href="/news">
                     <a className="hover:text-gray-600">News</a>
                   </Link>
                   <Link href="/contact">
@@ -109,7 +109,7 @@ export default function Header() {
               <Link href="/service">
                 <a>Services</a>
               </Link>
-              <Link href="/Post">
+              <Link href="/news">
                 <a>News</a>
               </Link>
               <Link href="/contact">
