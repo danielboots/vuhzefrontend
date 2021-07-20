@@ -1,7 +1,7 @@
 import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
-import News from "@/components/News";
+import Post from "@/components/Post";
 import Info from "@/components/Info";
 import Hero from "@/components/Hero";
 

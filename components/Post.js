@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const News = ({ post }) => {
+const Post = ({ post }) => {
   return (
     <div>
       <article>
@@ -49,4 +49,4 @@ const News = ({ post }) => {
   );
 };
 
-export default News;
+export default Post;
