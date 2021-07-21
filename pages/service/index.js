@@ -13,7 +13,7 @@ const service = ({ service }) => {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == 'service']{
+        `*[_type == 'service'] | order(id asc){
         title,
         slug,
         tagline,
