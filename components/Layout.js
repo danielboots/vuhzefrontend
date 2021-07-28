@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Header from "./Header";
+import Nav from "./Nav";
 import Footer from "./Footer";
 
 export default function Layout({ title, keywords, description, children }) {
@@ -14,7 +15,8 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
 
-      <Header />
+      {/* <Header /> */}
+      <Nav />
 
       {/* children_wraps content */}
 
